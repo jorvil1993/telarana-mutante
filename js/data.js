@@ -194,23 +194,23 @@ const CAPITULOS = {
     "oscorp-tower": "La bóveda donde Oscorp guarda la Muestra 7. Rhino entró por el sótano.",
     "osborn-labs": "El laboratorio privado de Osborn, al lado. Ahí debía llegar el contenedor.",
     "brooklyn-bridge": "La ruta de escape: un camión sin placas espera a Rhino del otro lado.",
-    "queens": "La casa de la tía May. Peter, Miles y Felicia salen desde aquí.",
-    "midtown-high": "La escuela de Peter, en el camino. Hay gente saliendo de un partido nocturno.",
+    "queens": "La casa de la tía May. Peter (Spider-Man), Miles y Felicia (Black Cat) salen desde aquí.",
+    "midtown-high": "La escuela de Peter (Spider-Man), en el camino. Hay gente saliendo de un partido nocturno.",
     "daily-bugle": "Jameson ya mandó fotógrafos: quiere a Spider-Man en primera plana."
   },
   heroes: ["spider-man", "miles-morales", "black-cat"],
   prologo: [
     "Hace tres semanas, el transbordador del astronauta John Jameson volvió a la Tierra con algo pegado al casco: una masa negra que se movía sola. Oscorp ganó el contrato para estudiarla. En sus bóvedas la llaman la Muestra 7.",
-    "Esta noche, en Queens, la tía May le sirve a Miles un segundo plato de lasaña cuando alguien golpea la ventana del cuarto de Peter. Es Felicia Hardy, Black Cat, y viene furiosa: le pagaron por robar la Muestra 7 y alguien llegó primero. «Rhino está atravesando las paredes de Oscorp como si fueran de papel», dice. «Yo no trabajo gratis, pero hoy hago una excepción.»",
-    "Peter, Miles y Felicia salen por la ventana antes de que la tía May termine de preguntar adónde van. Alguien le pagó a Rhino el triple por sacar un solo contenedor, y Felicia quiere saber quién."
+    "Esta noche, en Queens, la tía May le sirve a Miles un segundo plato de lasaña cuando alguien golpea la ventana del cuarto de Peter (Spider-Man). Es Felicia Hardy, Black Cat, y viene furiosa: le pagaron por robar la Muestra 7 y alguien llegó primero. «Rhino está atravesando las paredes de Oscorp como si fueran de papel», dice. «Yo no trabajo gratis, pero hoy hago una excepción.»",
+    "Peter (Spider-Man), Miles y Felicia (Black Cat) salen por la ventana antes de que la tía May termine de preguntar adónde van. Alguien le pagó a Rhino el triple por sacar un solo contenedor, y Felicia quiere saber quién."
   ],
   evento: { titulo: "Puerta derribada", texto: "Rhino lleva diez minutos adentro cuando ustedes llegan.", efectos: ["Coloca 1 Matón extra en Oscorp Tower (cabe: Oscorp tiene 2 espacios libres al empezar)."] },
-  pistas: {"titulo": "El comprador", "tipo": "objetivos", "texto": "Felicia quiere saber quién contrató a Rhino. Hay rastros del comprador en el laboratorio de Osborn y en el camión que espera en el puente.", "lugares": ["osborn-labs", "brooklyn-bridge"], "cond": "Recoger los dos rastros.", "premio": "Ya saben quién pagó el robo y cómo piensa: en el próximo capítulo, miren las 3 primeras cartas del Plan Maestro y ordénenlas como quieran."},
+  pistas: {"titulo": "El comprador", "tipo": "objetivos", "texto": "Felicia (Black Cat) quiere saber quién contrató a Rhino. Hay rastros del comprador en el laboratorio de Osborn y en el camión que espera en el puente.", "lugares": ["osborn-labs", "brooklyn-bridge"], "cond": "Recoger los dos rastros.", "premio": "Ya saben quién pagó el robo y cómo piensa: en el próximo capítulo, miren las 3 primeras cartas del Plan Maestro y ordénenlas como quieran."},
   victoria: {
     titulo: "Contenedor recuperado",
     texto: [
-      "Rhino queda incrustado en el piso del vestíbulo, con una telaraña en cada cuerno. Peter abre el contenedor recuperado y se le hiela la sangre: está medio vacío. La mitad de la Muestra 7 se escurrió por una grieta del piso mientras peleaban, y nadie la vio salir.",
-      "Felicia revisa el teléfono de Rhino. El último mensaje dice «Entrega en Osborn Labs». Esa misma noche, en el estacionamiento del Daily Bugle, un fotógrafo despedido llamado Eddie Brock siente algo frío que le trepa por la pierna."
+      "Rhino queda incrustado en el piso del vestíbulo, con una telaraña en cada cuerno. Peter (Spider-Man) abre el contenedor recuperado y se le hiela la sangre: está medio vacío. La mitad de la Muestra 7 se escurrió por una grieta del piso mientras peleaban, y nadie la vio salir.",
+      "Felicia (Black Cat) revisa el teléfono de Rhino. El último mensaje dice «Entrega en Osborn Labs». Esa misma noche, en el estacionamiento del Daily Bugle, un fotógrafo despedido llamado Eddie Brock siente algo frío que le trepa por la pierna."
     ],
     resumen: "Rhino cayó, pero media Muestra 7 escapó por las cloacas y encontró a Eddie Brock.",
     siguiente: "I2A"
@@ -219,7 +219,7 @@ const CAPITULOS = {
     titulo: "Rhino se escapa",
     texto: [
       "Rhino atraviesa la pared este, sube a un camión sin placas y desaparece por el Puente de Brooklyn con el contenedor completo.",
-      "Felicia alcanzó a ver la cara del comprador en la cabina: el asistente personal de Norman Osborn. Y el asistente también la vio a ella. Esa misma noche, alguien con garras empieza a preguntar por Black Cat en los bares de Manhattan."
+      "Felicia (Black Cat) alcanzó a ver la cara del comprador en la cabina: el asistente personal de Norman Osborn. Y el asistente también la vio a ella. Esa misma noche, alguien con garras empieza a preguntar por Black Cat en los bares de Manhattan."
     ],
     resumen: "Rhino escapó con la Muestra 7 y el comprador vio la cara de Black Cat.",
     siguiente: "I2B"
@@ -228,7 +228,7 @@ const CAPITULOS = {
 
 "I2A": {
   acto: 1, paso: 2, titulo: "Primera plana", villano: "venom", identidad: true,
-  inspiracion: "Venom nació en The Amazing Spider-Man #300 (1988). En Spider-Man 3 (2007), Eddie Brock es el fotógrafo del Bugle al que Peter deja en evidencia.",
+  inspiracion: "Venom nació en The Amazing Spider-Man #300 (1988). En Spider-Man 3 (2007), Eddie Brock (Venom) es el fotógrafo del Bugle al que Peter (Spider-Man) deja en evidencia.",
   anillo: ["daily-bugle", "midtown-high", "queens", "oscorp-tower", "brooklyn-bridge", "osborn-labs"],
   notas: {
     "daily-bugle": "Venom tomó la redacción con todos adentro.",
@@ -241,11 +241,11 @@ const CAPITULOS = {
   heroes: ["spider-man", "spider-woman", "black-cat"],
   prologo: [
     "Eddie Brock era el mejor fotógrafo del Daily Bugle hasta que Peter Parker demostró que sus fotos de Spider-Man eran falsas. Jameson lo despidió frente a toda la redacción. Eddie nunca lo olvidó.",
-    "Ahora Eddie ya no está solo. La mitad de la Muestra 7 lo encontró en el estacionamiento y se le metió bajo la piel. Juntos se llaman Venom, y esta mañana tomaron el Daily Bugle con todos adentro. Quieren que Jameson imprima en primera plana quién es Spider-Man.",
-    "Jessica Drew, Spider-Woman, agente de S.H.I.E.L.D., rastrea la muestra desde que bajó del espacio. Encuentra a Peter y a Felicia revisando la bóveda vacía de Oscorp. «Esa cosa ya eligió a alguien», les dice. «Y por lo que veo, te conoce, Parker.»"
+    "Ahora Eddie (Venom) ya no está solo. La mitad de la Muestra 7 lo encontró en el estacionamiento y se le metió bajo la piel. Juntos se llaman Venom, y esta mañana tomaron el Daily Bugle con todos adentro. Quieren que Jameson imprima en primera plana quién es Spider-Man.",
+    "Jessica Drew, Spider-Woman, agente de S.H.I.E.L.D., rastrea la muestra desde que bajó del espacio. Encuentra a Peter (Spider-Man) y a Felicia (Black Cat) revisando la bóveda vacía de Oscorp. «Esa cosa ya eligió a alguien», les dice. «Y por lo que veo, te conoce, Parker.»"
   ],
   evento: { titulo: "Edición extra", texto: "Jameson manda a todos sus reporteros a cubrir el secuestro de su propio periódico.", efectos: ["Activa el Desafío Identidad Secreta (se prepara y se explica en su propio paso de la preparación).", "Hay rehenes en la redacción: coloca 1 Civil extra en Daily Bugle."] },
-  pistas: {"titulo": "La debilidad", "tipo": "iconos", "texto": "Jessica sospecha que el simbionte odia el ruido. Cada golpe contra las paredes de la redacción lo pone más nervioso: hagan todo el ruido que puedan.", "prep": "Al terminar, cuenten los iconos de Ataque (el puño rojo) en la parte de abajo de las cartas de héroe que quedaron boca arriba en la Trama (la fila de cartas jugadas). Una carta con dos iconos cuenta dos; los Comodines no cuentan.", "cond": "Que en la Trama haya {n} o más iconos de Ataque.", "n": [6, 8], "premio": "Ya saben cómo asustar a un simbionte: en el próximo capítulo, cada héroe empieza con 1 ficha de Ataque."},
+  pistas: {"titulo": "La debilidad", "tipo": "iconos", "texto": "Jessica (Spider-Woman) sospecha que el simbionte odia el ruido. Cada golpe contra las paredes de la redacción lo pone más nervioso: hagan todo el ruido que puedan.", "prep": "Al terminar, cuenten los iconos de Ataque (el puño rojo) en la parte de abajo de las cartas de héroe que quedaron boca arriba en la Trama (la fila de cartas jugadas). Una carta con dos iconos cuenta dos; los Comodines no cuentan.", "cond": "Que en la Trama haya {n} o más iconos de Ataque.", "n": [6, 8], "premio": "Ya saben cómo asustar a un simbionte: en el próximo capítulo, cada héroe empieza con 1 ficha de Ataque."},
   victoria: {
     titulo: "Eddie despierta",
     texto: [
@@ -259,7 +259,7 @@ const CAPITULOS = {
     titulo: "Venom escapa",
     texto: [
       "Venom salta desde el techo del Bugle con la mitad de las cámaras del edificio encima. Su cara de dientes sale en todas las pantallas de Times Square.",
-      "Lo pierden en las cloacas. Pero no son los únicos buscándolo: Jessica intercepta una radio de Oscorp. Osborn contrató a un cazador para atrapar a Venom vivo. Necesita al simbionte para algo."
+      "Lo pierden en las cloacas. Pero no son los únicos buscándolo: Jessica (Spider-Woman) intercepta una radio de Oscorp. Osborn contrató a un cazador para atrapar a Venom vivo. Necesita al simbionte para algo."
     ],
     resumen: "Venom escapó a las cloacas y Osborn contrató a un cazador para atraparlo vivo.",
     siguiente: "I3AB"
@@ -268,29 +268,29 @@ const CAPITULOS = {
 
 "I2B": {
   acto: 1, paso: 2, titulo: "Cazada", villano: "sabretooth", primero: "black-cat",
-  inspiracion: "Victor Creed debutó como asesino a sueldo en Iron Fist #14 (1977), en las calles de Nueva York, mucho antes de enfrentarse a los X-Men.",
+  inspiracion: "Victor Creed (Sabretooth / Dientes de Sable) debutó como asesino a sueldo en Iron Fist #14 (1977), en las calles de Nueva York, mucho antes de enfrentarse a los X-Men.",
   anillo: ["oscorp-tower", "daily-bugle", "midtown-high", "queens", "brooklyn-bridge", "osborn-labs"],
   notas: {
-    "oscorp-tower": "Creed sale de la oficina de su cliente.",
-    "queens": "Felicia se esconde en el cuarto de huéspedes de la tía May.",
+    "oscorp-tower": "Creed (Sabretooth / Dientes de Sable) sale de la oficina de su cliente.",
+    "queens": "Felicia (Black Cat) se esconde en el cuarto de huéspedes de la tía May.",
     "brooklyn-bridge": "El camión de Rhino pasó por aquí: el rastro del contenedor.",
     "osborn-labs": "El destino final del contenedor robado.",
-    "midtown-high": "Creed corta camino por la escuela.",
+    "midtown-high": "Creed (Sabretooth / Dientes de Sable) corta camino por la escuela.",
     "daily-bugle": "La policía usa la azotea como puesto de vigilancia."
   },
   heroes: ["black-cat", "spider-man", "spider-woman"],
   prologo: [
     "El asistente de Osborn no quiere testigos. Contrató al único cazador que nunca suelta una presa: Victor Creed, Sabretooth.",
-    "Felicia lleva dos días escondida en el cuarto de huéspedes de la tía May, que cree que es una compañera de la universidad de Peter. Esta noche, May baja a regar las plantas y encuentra marcas de garras en la puerta del jardín.",
-    "Jessica Drew llega a Queens con malas noticias: Rhino entregó el contenedor y Creed salió de Oscorp Tower hace una hora. Por la radio de la policía se oye una voz ronca que se ríe: «Huele a gato.»"
+    "Felicia (Black Cat) lleva dos días escondida en el cuarto de huéspedes de la tía May, que cree que es una compañera de la universidad de Peter (Spider-Man). Esta noche, May baja a regar las plantas y encuentra marcas de garras en la puerta del jardín.",
+    "Jessica Drew (Spider-Woman) llega a Queens con malas noticias: Rhino entregó el contenedor y Creed (Sabretooth / Dientes de Sable) salió de Oscorp Tower hace una hora. Por la radio de la policía se oye una voz ronca que se ríe: «Huele a gato.»"
   ],
-  evento: { titulo: "La presa", texto: "Creed ya sabe dónde duerme Felicia.", efectos: ["Black Cat empieza la partida y recibe la ficha de Cazado.", "La tía May está en casa: coloca 1 Civil extra en Queens."] },
-  pistas: {"titulo": "Las siete vidas", "tipo": "sinko", "texto": "Creed quiere a Felicia. Si ella aguanta toda la noche sin caer, el cazador se queda sin su presa y ustedes ganan tiempo para seguir el rastro del contenedor.", "cond": "Que Black Cat no haya quedado fuera de combate en ningún momento.", "premio": "Felicia sigue el rastro del contenedor y llegan antes: el villano del próximo capítulo empieza Frenado (ficha verde sobre su mazo)."},
+  evento: { titulo: "La presa", texto: "Creed (Sabretooth / Dientes de Sable) ya sabe dónde duerme Felicia (Black Cat).", efectos: ["Black Cat empieza la partida y recibe la ficha de Cazado.", "La tía May está en casa: coloca 1 Civil extra en Queens."] },
+  pistas: {"titulo": "Las siete vidas", "tipo": "sinko", "texto": "Creed (Sabretooth / Dientes de Sable) quiere a Felicia (Black Cat). Si ella aguanta toda la noche sin caer, el cazador se queda sin su presa y ustedes ganan tiempo para seguir el rastro del contenedor.", "cond": "Que Black Cat no haya quedado fuera de combate en ningún momento.", "premio": "Felicia (Black Cat) sigue el rastro del contenedor y llegan antes: el villano del próximo capítulo empieza Frenado (ficha verde sobre su mazo)."},
   victoria: {
     titulo: "Gato salvaje",
     texto: [
-      "Felicia esquiva el último zarpazo y Creed cae desde el techo de Midtown High sobre un camión de basura. Peter lo deja envuelto en telaraña para la policía.",
-      "Ahora Felicia puede hablar: el contenedor está en el sótano de Osborn Laboratories, conectado a una máquina enorme que zumba día y noche. «No sé qué es», dice. «Pero hasta Rhino le tenía miedo.»"
+      "Felicia (Black Cat) esquiva el último zarpazo y Creed (Sabretooth / Dientes de Sable) cae desde el techo de Midtown High sobre un camión de basura. Peter (Spider-Man) lo deja envuelto en telaraña para la policía.",
+      "Ahora Felicia (Black Cat) puede hablar: el contenedor está en el sótano de Osborn Laboratories, conectado a una máquina enorme que zumba día y noche. «No sé qué es», dice. «Pero hasta Rhino le tenía miedo.»"
     ],
     resumen: "Salvaron a Black Cat de Sabretooth y ella les dijo dónde está la Muestra 7.",
     siguiente: "I3BA"
@@ -298,8 +298,8 @@ const CAPITULOS = {
   derrota: {
     titulo: "Marcas de garras",
     texto: [
-      "Sabretooth hiere a Felicia antes de desaparecer entre los techos. Ella sobrevive, pero pasará semanas recuperándose en Queens.",
-      "En el bolsillo de Creed quedó un pase de seguridad de Osborn Laboratories. A medianoche, todas las luces de Manhattan parpadean al mismo tiempo: algo enorme se encendió en el sótano de Osborn."
+      "Sabretooth hiere a Felicia (Black Cat) antes de desaparecer entre los techos. Ella sobrevive, pero pasará semanas recuperándose en Queens.",
+      "En el bolsillo de Creed (Sabretooth / Dientes de Sable) quedó un pase de seguridad de Osborn Laboratories. A medianoche, todas las luces de Manhattan parpadean al mismo tiempo: algo enorme se encendió en el sótano de Osborn."
     ],
     resumen: "Sabretooth hirió a Black Cat y algo enorme se encendió en Osborn Laboratories.",
     siguiente: "I3BB"
@@ -322,15 +322,15 @@ const CAPITULOS = {
   prologo: [
     "Norman Osborn sabe que su fórmula del Duende le está comiendo la cabeza. Leyó los informes de la NASA: la masa del transbordador sana cualquier cuerpo que toca. Si lograra domarla, sería fuerte y estaría cuerdo. Pero el simbionte no obedece a nadie.",
     "Por eso construyó el colisionador: una máquina que abre ventanas a otros universos. Osborn busca uno donde alguien ya haya domado al simbionte, para copiar cómo lo hizo. La otra mitad de la Muestra 7 es su batería. Y para que nadie lo apague, contrató a Cain Marko, el Juggernaut.",
-    "Peter quedó molido después de pelear con Venom, así que Miles va al frente. Cuando llegan, el colisionador ya está encendido: el cielo sobre Osborn Laboratories se abre en grietas de colores. De una cae una chica con capucha blanca. Detrás de ella aterriza, de cabeza, un cerdo con antifaz."
+    "Peter (Spider-Man) quedó molido después de pelear con Venom, así que Miles va al frente. Cuando llegan, el colisionador ya está encendido: el cielo sobre Osborn Laboratories se abre en grietas de colores. De una cae una chica con capucha blanca. Detrás de ella aterriza, de cabeza, un cerdo con antifaz."
   ],
   evento: { titulo: "Grietas en el cielo", texto: "Gwen Stacy (Ghost-Spider) y Peter Porker (Spider-Ham) se unen desde el principio. Por las grietas también cruzan matones de otros mundos.", efectos: ["Coloca 1 Matón extra en Osborn Laboratories."] },
   pistas: {"titulo": "Antes del amanecer", "tipo": "plan", "texto": "Cada minuto que el colisionador sigue encendido, las grietas se agrandan. Hay que apagarlo antes de que salga el sol.", "cond": "Derrotar a Juggernaut cuando todavía quedan {n} o más cartas en el mazo de Plan Maestro.", "n": [3, 2], "premio": "La red eléctrica de Osborn quedó a su favor: en el próximo capítulo, cada héroe roba 4 cartas al empezar en vez de 3.", "premioRobo": 1},
   victoria: {
     titulo: "La grieta se cierra",
     texto: [
-      "Miles atrae a Juggernaut hasta la obra frente a Midtown y Spider-Ham le vuelca encima una mezcladora entera de cemento fresco. Cuando Cain logra moverse, el cemento ya se secó.",
-      "Gwen arranca el núcleo del colisionador y las grietas se cierran. Justo antes de la última, cae un tercer visitante con un traje negro y rojo del año 2099. Miguel O'Hara mira la máquina destruida y respira: «Llegué a tiempo. En mi época, lo que salió de esta máquina destruyó media ciudad.»"
+      "Miles atrae a Juggernaut hasta la obra frente a Midtown y Spider-Ham le vuelca encima una mezcladora entera de cemento fresco. Cuando Cain (Juggernaut) logra moverse, el cemento ya se secó.",
+      "Gwen (Ghost-Spider) arranca el núcleo del colisionador y las grietas se cierran. Justo antes de la última, cae un tercer visitante con un traje negro y rojo del año 2099. Miguel O'Hara (Spider-Man 2099) mira la máquina destruida y respira: «Llegué a tiempo. En mi época, lo que salió de esta máquina destruyó media ciudad.»"
     ],
     resumen: "Apagaron el colisionador; llegaron Ghost-Spider, Spider-Ham y Spider-Man 2099.",
     siguiente: "D1"
@@ -352,7 +352,7 @@ const CAPITULOS = {
   inspiracion: "La debilidad del simbionte al sonido y al fuego viene de sus primeras historias en los cómics de Spider-Man de los años 80.",
   anillo: ["brooklyn-bridge", "osborn-labs", "oscorp-tower", "daily-bugle", "midtown-high", "queens"],
   notas: {
-    "brooklyn-bridge": "Venom se esconde en las cloacas bajo el puente. Creed ya está ahí.",
+    "brooklyn-bridge": "Venom se esconde en las cloacas bajo el puente. Creed (Sabretooth / Dientes de Sable) ya está ahí.",
     "daily-bugle": "Los héroes salen desde el Bugle, donde Venom los venció.",
     "osborn-labs": "El camión de Oscorp espera con una jaula de acero sónico.",
     "oscorp-tower": "Gotas negras en la escalera de emergencia: el rastro de Venom.",
@@ -363,14 +363,14 @@ const CAPITULOS = {
   prologo: [
     "Venom se esconde en las cloacas bajo el Puente de Brooklyn. Está herido y asustado: el simbionte no entiende por qué la ciudad entera lo odia.",
     "Osborn necesita a ese simbionte vivo. Su colisionador, una máquina que abre ventanas a otros universos, solo funcionó unos segundos con media muestra, pero bastó: en las cloacas aparecieron dos desconocidos. Gwen Stacy, Ghost-Spider, viene de un mundo donde la araña la picó a ella. Miguel O'Hara, Spider-Man 2099, viene del futuro con una advertencia: «Si Osborn junta las dos mitades, mi Nueva York nunca va a existir.»",
-    "Jessica Drew guía a los recién llegados por los túneles. No son los únicos cazando: Osborn contrató a Sabretooth, y Creed ya olió a Jessica."
+    "Jessica Drew (Spider-Woman) guía a los recién llegados por los túneles. No son los únicos cazando: Osborn contrató a Sabretooth, y Creed ya olió a Jessica."
   ],
-  evento: { titulo: "Olor a presa", texto: "Creed decide que la agente de S.H.I.E.L.D. es más divertida que el simbionte.", efectos: ["Spider-Woman empieza la partida y recibe la ficha de Cazado."] },
-  pistas: {"titulo": "El rastro de Venom", "tipo": "iconos", "texto": "Venom dejó gotas negras por toda la ciudad en su huida. Para llegar a él antes que Creed hay que moverse rápido y no perder el rastro.", "prep": "Al terminar, cuenten los iconos de Mover (la flecha verde) en la parte de abajo de las cartas de héroe que quedaron boca arriba en la Trama (la fila de cartas jugadas). Una carta con dos iconos cuenta dos; los Comodines no cuentan.", "cond": "Que en la Trama haya {n} o más iconos de Mover.", "n": [8, 11], "premio": "Venom les debe una: en el próximo capítulo, un héroe que ustedes elijan empieza con 2 fichas Comodín."},
+  evento: { titulo: "Olor a presa", texto: "Creed (Sabretooth / Dientes de Sable) decide que la agente de S.H.I.E.L.D. es más divertida que el simbionte.", efectos: ["Spider-Woman empieza la partida y recibe la ficha de Cazado."] },
+  pistas: {"titulo": "El rastro de Venom", "tipo": "iconos", "texto": "Venom dejó gotas negras por toda la ciudad en su huida. Para llegar a él antes que Creed (Sabretooth / Dientes de Sable) hay que moverse rápido y no perder el rastro.", "prep": "Al terminar, cuenten los iconos de Mover (la flecha verde) en la parte de abajo de las cartas de héroe que quedaron boca arriba en la Trama (la fila de cartas jugadas). Una carta con dos iconos cuenta dos; los Comodines no cuentan.", "cond": "Que en la Trama haya {n} o más iconos de Mover.", "n": [8, 11], "premio": "Venom les debe una: en el próximo capítulo, un héroe que ustedes elijan empieza con 2 fichas Comodín."},
   victoria: {
     titulo: "El cazador cae al río",
     texto: [
-      "Creed cae al río desde el Puente de Brooklyn y no vuelve a salir, por ahora. En las cloacas, Gwen encuentra a Venom acurrucado y le habla despacio, como a un animal herido. El simbionte se retira de la cara de Eddie Brock.",
+      "Creed (Sabretooth / Dientes de Sable) cae al río desde el Puente de Brooklyn y no vuelve a salir, por ahora. En las cloacas, Gwen (Ghost-Spider) encuentra a Venom acurrucado y le habla despacio, como a un animal herido. El simbionte se retira de la cara de Eddie Brock (Venom).",
       "«Gracias», dice Eddie. «Osborn tiene la otra mitad en su laboratorio. El simbionte la escucha llamar.» Esa noche, un cerdo con antifaz cae por una alcantarilla de Queens preguntando por la salida."
     ],
     resumen: "Vencieron a Sabretooth, rescataron a Eddie Brock y llegaron los visitantes del Spider-Verse.",
@@ -379,8 +379,8 @@ const CAPITULOS = {
   derrota: {
     titulo: "Venom atrapado",
     texto: [
-      "Sabretooth arrastra a Venom en una red de acero sónico hasta un camión de Oscorp. Jessica alcanza a ver el logo antes de que arranque.",
-      "Esa noche, Osborn junta las dos mitades de la Muestra 7 en su colisionador. Las grietas se abren sobre Manhattan y por una cae Spider-Ham, mareado. Eddie Brock, ya sin su simbionte, aparece en la puerta de Jessica, temblando: «Me lo quitaron. Ayúdenme a recuperarlo.»"
+      "Sabretooth arrastra a Venom en una red de acero sónico hasta un camión de Oscorp. Jessica (Spider-Woman) alcanza a ver el logo antes de que arranque.",
+      "Esa noche, Osborn junta las dos mitades de la Muestra 7 en su colisionador. Las grietas se abren sobre Manhattan y por una cae Spider-Ham, mareado. Eddie Brock, ya sin su simbionte, aparece en la puerta de Jessica (Spider-Woman), temblando: «Me lo quitaron. Ayúdenme a recuperarlo.»"
     ],
     resumen: "Sabretooth capturó al simbionte de Venom para Osborn; Eddie Brock pidió ayuda.",
     efectos: [{ panico: 1 }],
@@ -390,7 +390,7 @@ const CAPITULOS = {
 
 "I3BA": {
   acto: 1, paso: 3, titulo: "Nace Venom", villano: "venom", identidad: true,
-  inspiracion: "El nacimiento de Venom en The Amazing Spider-Man #300 (1988) y la película Spider-Man 3 (2007), con Eddie Brock como fotógrafo resentido.",
+  inspiracion: "El nacimiento de Venom en The Amazing Spider-Man #300 (1988) y la película Spider-Man 3 (2007), con Eddie Brock (Venom) como fotógrafo resentido.",
   anillo: ["osborn-labs", "daily-bugle", "queens", "oscorp-tower", "brooklyn-bridge", "midtown-high"],
   notas: {
     "osborn-labs": "El colisionador se sobrecargó: Venom nace en el sótano.",
@@ -402,11 +402,11 @@ const CAPITULOS = {
   },
   heroes: ["black-cat", "spider-man", "ghost-spider"],
   prologo: [
-    "Gracias a Felicia, ahora saben dónde está la Muestra 7: conectada a una máquina enorme en el sótano de Osborn Laboratories. Peter la reconoce por unos planos que vio en la universidad: un colisionador, capaz de abrir ventanas a otros universos.",
-    "Osborn busca un universo donde alguien ya haya domado al simbionte, para copiar el método. Su fórmula del Duende le está comiendo la cabeza, y la masa del espacio sana todo lo que toca.",
-    "Peter y Felicia entran por el túnel de servicio de Oscorp Tower. No saben que alguien más se coló esa noche: Eddie Brock, un fotógrafo despedido del Bugle que busca la foto que le devuelva su trabajo. Cuando el colisionador se sobrecarga, la Muestra 7 sale disparada directo hacia Eddie."
+    "Gracias a Felicia (Black Cat), ahora saben dónde está la Muestra 7: conectada a una máquina enorme en el sótano de Osborn Laboratories. Peter (Spider-Man) la reconoce por unos planos que vio en la universidad: un colisionador, capaz de abrir ventanas a otros universos.",
+    "Osborn (Duende Verde) busca un universo donde alguien ya haya domado al simbionte, para copiar el método. Su fórmula del Duende le está comiendo la cabeza, y la masa del espacio sana todo lo que toca.",
+    "Peter (Spider-Man) y Felicia (Black Cat) entran por el túnel de servicio de Oscorp Tower. No saben que alguien más se coló esa noche: Eddie Brock, un fotógrafo despedido del Bugle que busca la foto que le devuelva su trabajo. Cuando el colisionador se sobrecarga, la Muestra 7 sale disparada directo hacia Eddie."
   ],
-  evento: { titulo: "Del otro lado", texto: "Una grieta se abre en medio del laboratorio y Gwen Stacy, Ghost-Spider, cae al lado de Peter. Se une desde el principio. Jameson ya mandó reporteros.", efectos: ["Activa el Desafío Identidad Secreta (se prepara y se explica en su propio paso de la preparación)."] },
+  evento: { titulo: "Del otro lado", texto: "Una grieta se abre en medio del laboratorio y Gwen Stacy, Ghost-Spider, cae al lado de Peter (Spider-Man). Se une desde el principio. Jameson ya mandó reporteros.", efectos: ["Activa el Desafío Identidad Secreta (se prepara y se explica en su propio paso de la preparación)."] },
   pistas: {"titulo": "Las fotos de Eddie", "tipo": "objetivos", "texto": "Eddie fotografió el colisionador y el logo de Osborn. Una copia de las fotos está en su casillero del Bugle y la otra en la cámara que perdió en el puente.", "lugares": ["daily-bugle", "brooklyn-bridge"], "cond": "Recoger las dos fotos.", "premio": "Las fotos prueban todo y la gente confía en ustedes: en el próximo capítulo, rescaten 1 Civil de cualquier Lugar antes de empezar (cuenta para la Misión)."},
   victoria: {
     titulo: "Simbionte acorralado",
@@ -421,7 +421,7 @@ const CAPITULOS = {
     titulo: "Venom suelto",
     texto: [
       "Venom destroza el laboratorio y salta a la calle con media Manhattan mirando. El colisionador queda abierto toda la noche.",
-      "Al amanecer, Spider-Ham y Spider-Man 2099 aparecen en el techo de Oscorp. Miguel mira las noticias: «Ya empezó. En mi época, a esto lo llamaban el Año del Simbionte.»"
+      "Al amanecer, Spider-Ham y Spider-Man 2099 aparecen en el techo de Oscorp. Miguel (Spider-Man 2099) mira las noticias: «Ya empezó. En mi época, a esto lo llamaban el Año del Simbionte.»"
     ],
     resumen: "Venom escapó del laboratorio de Osborn y el colisionador quedó abierto.",
     efectos: [{ panico: 1 }],
@@ -435,7 +435,7 @@ const CAPITULOS = {
   anillo: ["osborn-labs", "oscorp-tower", "midtown-high", "queens", "daily-bugle", "brooklyn-bridge"],
   notas: {
     "osborn-labs": "El colisionador lleva toda la noche encendido. Juggernaut cuida la puerta.",
-    "queens": "Peter cuida a Felicia en la casa de la tía May. Los héroes salen desde aquí.",
+    "queens": "Peter (Spider-Man) cuida a Felicia (Black Cat) en la casa de la tía May. Los héroes salen desde aquí.",
     "oscorp-tower": "La subestación que alimenta la máquina.",
     "brooklyn-bridge": "Los cables de alta tensión cruzan por el puente.",
     "midtown-high": "Una obra en construcción frente a la escuela: hay una mezcladora llena.",
@@ -443,17 +443,17 @@ const CAPITULOS = {
   },
   heroes: ["spider-man-2099", "spider-ham", "miles-morales"],
   prologo: [
-    "El colisionador de Osborn lleva toda la noche encendido con la Muestra 7 completa. Es una máquina que abre ventanas a otros universos: Osborn busca uno donde alguien ya haya domado al simbionte, para copiar el método. Su fórmula del Duende le está comiendo la cabeza y la masa del espacio sana todo lo que toca.",
+    "El colisionador de Osborn (Duende Verde) lleva toda la noche encendido con la Muestra 7 completa. Es una máquina que abre ventanas a otros universos: Osborn busca uno donde alguien ya haya domado al simbionte, para copiar el método. Su fórmula del Duende le está comiendo la cabeza y la masa del espacio sana todo lo que toca.",
     "Las grietas sobre Manhattan dejan pasar más que luz. Por una cayó Miguel O'Hara, Spider-Man 2099, con una advertencia: en su futuro, esta noche es el principio del desastre. Por otra cayó Peter Porker, Spider-Ham, que todavía no entiende dónde está.",
-    "Peter se queda en Queens cuidando a Felicia, y Miles guía a los recién llegados. Osborn sabía que vendrían: contrató a Cain Marko, el Juggernaut, para que nadie toque la máquina."
+    "Peter (Spider-Man) se queda en Queens cuidando a Felicia (Black Cat), y Miles guía a los recién llegados. Osborn sabía que vendrían: contrató a Cain Marko, el Juggernaut, para que nadie toque la máquina."
   ],
-  evento: { titulo: "Ciudad agrietada", texto: "Miguel O'Hara y Spider-Ham ya están aquí y pelean desde el principio. Las grietas dejan pasar matones de otros mundos.", efectos: ["Coloca 1 Matón extra en Osborn Laboratories."] },
-  pistas: {"titulo": "Toda la manzana", "tipo": "misiones", "texto": "Las grietas dejan pasar matones de otros mundos por toda la manzana. Si limpian todo antes de atrapar a Cain, Osborn no podrá volver a encender nada aquí.", "cond": "Completar las 3 Misiones antes de derrotar a Juggernaut.", "premio": "Sin colisionador, Osborn pierde tiempo: el villano del próximo capítulo empieza Frenado (ficha verde sobre su mazo)."},
+  evento: { titulo: "Ciudad agrietada", texto: "Miguel O'Hara (Spider-Man 2099) y Spider-Ham ya están aquí y pelean desde el principio. Las grietas dejan pasar matones de otros mundos.", efectos: ["Coloca 1 Matón extra en Osborn Laboratories."] },
+  pistas: {"titulo": "Toda la manzana", "tipo": "misiones", "texto": "Las grietas dejan pasar matones de otros mundos por toda la manzana. Si limpian todo antes de atrapar a Cain (Juggernaut), Osborn no podrá volver a encender nada aquí.", "cond": "Completar las 3 Misiones antes de derrotar a Juggernaut.", "premio": "Sin colisionador, Osborn pierde tiempo: el villano del próximo capítulo empieza Frenado (ficha verde sobre su mazo)."},
   victoria: {
     titulo: "Atrapado hasta el cuello",
     texto: [
-      "Miles atrae a Cain hasta la obra frente a Midtown y Spider-Ham le vuelca encima una mezcladora entera de cemento fresco. Juggernaut queda atrapado hasta el cuello, rugiendo.",
-      "Miguel arranca el núcleo y el colisionador se apaga. Entre los cables, la Muestra 7 se retuerce y salta sobre el único humano que sacaba fotos desde la puerta: Eddie Brock, del Daily Bugle. Venom nace frente a ellos y huye por la ventana."
+      "Miles atrae a Cain (Juggernaut) hasta la obra frente a Midtown y Spider-Ham le vuelca encima una mezcladora entera de cemento fresco. Juggernaut queda atrapado hasta el cuello, rugiendo.",
+      "Miguel (Spider-Man 2099) arranca el núcleo y el colisionador se apaga. Entre los cables, la Muestra 7 se retuerce y salta sobre el único humano que sacaba fotos desde la puerta: Eddie Brock, del Daily Bugle. Venom nace frente a ellos y huye por la ventana."
     ],
     resumen: "Apagaron el colisionador, pero la Muestra 7 se unió a Eddie Brock: nació Venom.",
     siguiente: "D1"
@@ -487,9 +487,9 @@ const CAPITULOS = {
   llegan: ["cyclops", "jean-grey"],
   prologo: [
     "Grietas en el cielo, un monstruo de dientes en primera plana, criaturas de otros mundos en la calle. Nueva York tiene miedo, y el Senador Robert Kelly sabe aprovecharlo. Esta tarde da un discurso en el auditorio de Midtown High: quiere registrar a todos los mutantes y a todos los «fenómenos con máscara».",
-    "El Profesor Xavier recibe una advertencia telepática: alguien va a matar a Kelly frente a las cámaras para que la culpa caiga sobre los mutantes. Charles está en Muir Island con Moira MacTaggert y no llega a tiempo. Manda a Scott Summers y a Jean Grey.",
-    "Miguel O'Hara se ofrece a acompañarlos: en sus libros de historia, este discurso termina mal. Scott sabe lo que significa la misión: proteger al hombre que quiere encerrarlos. Lo hará igual. Entre los periodistas, una mujer de traje gris sonríe demasiado.",
-    { si: { eddie: "confianza" }, t: "Eddie Brock se ofreció a venir. Scott le pidió que esperara afuera: un simbionte en un acto contra mutantes no ayuda a nadie." },
+    "El Profesor Xavier recibe una advertencia telepática: alguien va a matar a Kelly frente a las cámaras para que la culpa caiga sobre los mutantes. Charles está en Muir Island con Moira MacTaggert y no llega a tiempo. Manda a Scott Summers (Cyclops) y a Jean Grey.",
+    "Miguel O'Hara (Spider-Man 2099) se ofrece a acompañarlos: en sus libros de historia, este discurso termina mal. Scott (Cyclops) sabe lo que significa la misión: proteger al hombre que quiere encerrarlos. Lo hará igual. Entre los periodistas, una mujer de traje gris sonríe demasiado.",
+    { si: { eddie: "confianza" }, t: "Eddie Brock se ofreció a venir. Scott (Cyclops) le pidió que esperara afuera: un simbionte en un acto contra mutantes no ayuda a nadie." },
     { si: { eddie: "ravencroft" }, t: "Kelly abre su discurso con una foto de Eddie Brock entrando a Ravencroft: «Esto es lo que pasa cuando dejamos sueltos a los fenómenos.»" }
   ],
   evento: { titulo: "Cualquier cara", texto: "Mystique puede ser cualquiera del público.", efectos: ["Coloca 1 Civil extra en Midtown High."] },
@@ -518,39 +518,39 @@ const CAPITULOS = {
 
 "II2A": {
   acto: 2, paso: 2, titulo: "Arma X", villano: "sabretooth", primero: "wolverine",
-  inspiracion: "Weapon X, de Barry Windsor-Smith (Marvel Comics Presents #72-84, 1991): el origen del esqueleto de adamantium de Logan.",
+  inspiracion: "Weapon X, de Barry Windsor-Smith (Marvel Comics Presents #72-84, 1991): el origen del esqueleto de adamantium de Logan (Wolverine).",
   anillo: ["weapon-x", "osborn-labs", "muir-island", "x-jet", "hangar-bay", "xavier-institute"],
   notas: {
-    "weapon-x": "La instalación abandonada en Canadá. Creed cuida los archivos.",
+    "weapon-x": "La instalación abandonada en Canadá. Creed (Sabretooth / Dientes de Sable) cuida los archivos.",
     "x-jet": "Los héroes aterrizan aquí.",
     "osborn-labs": "El destino de los archivos: un camión los espera.",
     "hangar-bay": "Una avioneta de Oscorp carga cajas de archivos.",
-    "muir-island": "Charles sigue la misión por radio desde Muir Island.",
-    "xavier-institute": "Hank espera los papeles en el laboratorio de la escuela."
+    "muir-island": "Charles (Profesor X) sigue la misión por radio desde Muir Island.",
+    "xavier-institute": "Hank (Beast) espera los papeles en el laboratorio de la escuela."
   },
   heroes: ["wolverine", "storm", "spider-woman"],
   llegan: ["wolverine", "storm"],
   prologo: [
-    "El archivo adjunto del teléfono de Mystique tenía una dirección en Canadá: la vieja Instalación Arma X, donde le pegaron el adamantium a los huesos de Logan. Lleva años abandonada. Alguien volvió a encender las luces.",
+    "El archivo adjunto del teléfono de Mystique tenía una dirección en Canadá: la vieja Instalación Arma X, donde le pegaron el adamantium a los huesos de Logan (Wolverine). Lleva años abandonada. Alguien volvió a encender las luces.",
     "Arma X sabía hacer algo que nadie más sabe: unir para siempre algo vivo a un cuerpo sin matarlo. Es lo que Osborn necesita para que el simbionte no lo abandone nunca.",
-    "Logan baja del X-Jet con Ororo y con Jessica Drew, que conoce los archivos de S.H.I.E.L.D. sobre Arma X. Huele el aire: sangre, tabaco y algo dulzón. «Creed», gruñe. Osborn contrató a Sabretooth para cuidar los archivos.",
-    { vio: "sabretooth", t: "Creed tiene cuentas pendientes con ustedes desde Nueva York. Esta vez vino preparado." }
+    "Logan (Wolverine) baja del X-Jet con Ororo (Storm) y con Jessica Drew (Spider-Woman), que conoce los archivos de S.H.I.E.L.D. sobre Arma X. Huele el aire: sangre, tabaco y algo dulzón. «Creed», gruñe. Osborn contrató a Sabretooth para cuidar los archivos.",
+    { vio: "sabretooth", t: "Creed (Sabretooth / Dientes de Sable) tiene cuentas pendientes con ustedes desde Nueva York. Esta vez vino preparado." }
   ],
-  evento: { titulo: "Viejas heridas", texto: "Arma X huele al pasado de Logan, y Creed lo sabe.", efectos: ["Wolverine empieza la partida y recibe la ficha de Cazado.", "Coloca 1 Matón extra en Weapon X Facility."] },
+  evento: { titulo: "Viejas heridas", texto: "Arma X huele al pasado de Logan (Wolverine), y Creed (Sabretooth / Dientes de Sable) lo sabe.", efectos: ["Wolverine empieza la partida y recibe la ficha de Cazado.", "Coloca 1 Matón extra en Weapon X Facility."] },
   pistas: {"titulo": "Los cargadores", "tipo": "matones", "texto": "Los guardias de Osborn están cargando las cajas de archivos en la avioneta. Cada guardia que derriben es una caja que se queda en Canadá.", "prep": "Cuando completen la Misión «Derrotar Matones», sigan derrotando: dejen esos Matones aparte, junto al tablero del villano.", "cond": "Derrotar 2 Matones más después de completar la Misión «Derrotar Matones».", "premio": "Los archivos de Arma X enseñan cómo pelea Osborn: en el próximo capítulo, cada héroe empieza con 1 ficha Heroica."},
   victoria: {
     titulo: "Garra contra garra",
     texto: [
-      "Logan deja a Creed colgado de una viga, inconsciente. Entre los archivos rescatados está el plan completo: Osborn quiere unir el simbionte a su propio cuerpo con el método de Arma X. Y para saber quién más es compatible necesita la máquina que encuentra a cualquier persona del planeta: Cerebro.",
-      "Hank McCoy lee los papeles en el avión de vuelta y se pone pálido: «Va a ir por la escuela.»"
+      "Logan (Wolverine) deja a Creed (Sabretooth / Dientes de Sable) colgado de una viga, inconsciente. Entre los archivos rescatados está el plan completo: Osborn quiere unir el simbionte a su propio cuerpo con el método de Arma X. Y para saber quién más es compatible necesita la máquina que encuentra a cualquier persona del planeta: Cerebro.",
+      "Hank McCoy (Beast) lee los papeles en el avión de vuelta y se pone pálido: «Va a ir por la escuela.»"
     ],
     resumen: "Vencieron a Sabretooth y recuperaron los archivos de Arma X: Osborn va por Cerebro.",
     siguiente: "II3AA"
   },
   derrota: {
-    titulo: "Creed se lleva los archivos",
+    titulo: "Creed (Sabretooth / Dientes de Sable) se lleva los archivos",
     texto: [
-      "Sabretooth desaparece en el bosque con la mitad de los archivos. Logan sangra en la nieve, ya cerrándose las heridas, furioso.",
+      "Sabretooth desaparece en el bosque con la mitad de los archivos. Logan (Wolverine) sangra en la nieve, ya cerrándose las heridas, furioso.",
       "Lo que quedó alcanza para entender el plan: Osborn quiere unirse al simbionte con el método de Arma X. En una de las hojas que se salvaron hay una palabra subrayada dos veces: Cerebro."
     ],
     resumen: "Sabretooth escapó con medio expediente de Arma X; Osborn va por Cerebro.",
@@ -561,11 +561,11 @@ const CAPITULOS = {
 
 "II2B": {
   acto: 2, paso: 2, titulo: "La ley Kelly", villano: "juggernaut",
-  inspiracion: "X-Men #12-13 (1965): Juggernaut ataca por primera vez la escuela de su hermanastro, Charles Xavier.",
+  inspiracion: "X-Men #12-13 (1965): Juggernaut ataca por primera vez la escuela de su hermanastro, Charles Xavier (Profesor X).",
   anillo: ["xavier-institute", "hangar-bay", "x-jet", "muir-island", "queens", "midtown-high"],
   notas: {
     "xavier-institute": "Juggernaut entra por el bosque de Westchester rumbo al sótano.",
-    "muir-island": "Charles y Moira siguen en Muir Island. Los héroes salen desde ahí.",
+    "muir-island": "Charles (Profesor X) y Moira siguen en Muir Island. Los héroes salen desde ahí.",
     "hangar-bay": "Las compuertas del hangar protegen la entrada a Cerebro.",
     "x-jet": "El avión, listo para evacuar a los alumnos.",
     "queens": "Los alumnos que viven en la ciudad ven las noticias aterrados.",
@@ -575,17 +575,17 @@ const CAPITULOS = {
   llegan: ["storm", "beast"],
   prologo: [
     "La ley de Kelly está firmada y Oscorp tiene el contrato para «estudiar» a los mutantes detenidos. Solo le falta la lista: quién es mutante, dónde vive, qué puede hacer. Esa lista existe, y está en un sótano de Westchester. Se llama Cerebro.",
-    "Osborn no va a entrar él mismo a la escuela de Xavier. Para eso tiene a alguien que odia a Charles más que nadie: su hermanastro, Cain Marko. Le prometió a Juggernaut que podrá destruir la casa donde creció a la sombra de Charles.",
-    "Charles sigue en Muir Island cuando Cerebro detecta la señal: algo enorme atraviesa el bosque de Westchester en línea recta. Ororo y Hank despegan con el único visitante del Spider-Verse que se ofreció a ayudar: Spider-Ham. «Si es grande y no frena», dice, «es mi especialidad.»",
-    { vio: "juggernaut", t: "Cain no olvidó a los que lo dejaron en ridículo en Nueva York." }
+    "Osborn no va a entrar él mismo a la escuela de Xavier (Profesor X). Para eso tiene a alguien que odia a Charles más que nadie: su hermanastro, Cain Marko. Le prometió a Juggernaut que podrá destruir la casa donde creció a la sombra de Charles.",
+    "Charles (Profesor X) sigue en Muir Island cuando Cerebro detecta la señal: algo enorme atraviesa el bosque de Westchester en línea recta. Ororo (Storm) y Hank (Beast) despegan con el único visitante del Spider-Verse que se ofreció a ayudar: Spider-Ham. «Si es grande y no frena», dice, «es mi especialidad.»",
+    { vio: "juggernaut", t: "Cain (Juggernaut) no olvidó a los que lo dejaron en ridículo en Nueva York." }
   ],
   evento: { titulo: "Los alumnos", texto: "Hay estudiantes atrapados en la escuela.", efectos: ["Coloca 1 Civil extra en Xavier Institute."] },
-  pistas: {"titulo": "Evacuar la escuela", "tipo": "iconos", "texto": "Mientras Cain avanza, hay que sacar a cada alumno por las salidas de emergencia. Es un trabajo de héroes, uno por uno.", "prep": "Al terminar, cuenten los iconos de Heroica (la estrella amarilla) en la parte de abajo de las cartas de héroe que quedaron boca arriba en la Trama (la fila de cartas jugadas). Una carta con dos iconos cuenta dos; los Comodines no cuentan.", "cond": "Que en la Trama haya {n} o más iconos de Heroica.", "n": [5, 6], "premio": "La escuela queda blindada y los alumnos ayudan: en el próximo capítulo, derroten 1 Matón de cualquier Lugar antes de empezar (cuenta para la Misión)."},
+  pistas: {"titulo": "Evacuar la escuela", "tipo": "iconos", "texto": "Mientras Cain (Juggernaut) avanza, hay que sacar a cada alumno por las salidas de emergencia. Es un trabajo de héroes, uno por uno.", "prep": "Al terminar, cuenten los iconos de Heroica (la estrella amarilla) en la parte de abajo de las cartas de héroe que quedaron boca arriba en la Trama (la fila de cartas jugadas). Una carta con dos iconos cuenta dos; los Comodines no cuentan.", "cond": "Que en la Trama haya {n} o más iconos de Heroica.", "n": [5, 6], "premio": "La escuela queda blindada y los alumnos ayudan: en el próximo capítulo, derroten 1 Matón de cualquier Lugar antes de empezar (cuenta para la Misión)."},
   victoria: {
     titulo: "El casco",
     texto: [
-      "Spider-Ham se planta frente a Juggernaut y le anula el paso con una telaraña de dibujo animado. Ororo le arranca el casco con un rayo, y Charles, desde Muir Island, apaga la mente de Cain como quien apaga una luz.",
-      "Cerebro está a salvo. Pero al revisar los registros, Hank encuentra algo peor: alguien más entró a la red desde el espacio. Magneto también quiere la lista."
+      "Spider-Ham se planta frente a Juggernaut y le anula el paso con una telaraña de dibujo animado. Ororo (Storm) le arranca el casco con un rayo, y Charles (Profesor X), desde Muir Island, apaga la mente de Cain (Juggernaut) como quien apaga una luz.",
+      "Cerebro está a salvo. Pero al revisar los registros, Hank (Beast) encuentra algo peor: alguien más entró a la red desde el espacio. Magneto también quiere la lista."
     ],
     resumen: "Detuvieron a Juggernaut y Cerebro quedó a salvo, pero Magneto también busca la lista.",
     efectos: [{ flag: "cerebro", valor: "a_salvo" }],
@@ -611,34 +611,34 @@ const CAPITULOS = {
     "asteroid-m": "La fortaleza de Magneto en órbita. Desde ahí ataca.",
     "xavier-institute": "Cerebro está en el sótano. Los héroes lo defienden desde aquí.",
     "sentinel-station": "Magneto usa la vieja estación de los Centinelas como antena para entrar a Cerebro.",
-    "genosha": "La isla adonde Erik quiere llevarse a los mutantes de la lista.",
-    "hangar-bay": "Erik arranca el hangar de cuajo.",
-    "muir-island": "Charles sigue la batalla desde Muir Island."
+    "genosha": "La isla adonde Erik (Magneto) quiere llevarse a los mutantes de la lista.",
+    "hangar-bay": "Erik (Magneto) arranca el hangar de cuajo.",
+    "muir-island": "Charles (Profesor X) sigue la batalla desde Muir Island."
   },
   heroes: ["beast", "jean-grey", "ghost-spider"],
   llegan: ["beast"],
   prologo: [
     "Magneto leyó los mismos archivos que ustedes. Sabe que Osborn busca Cerebro para encontrar cuerpos compatibles con su simbionte, y que la mayoría de esos cuerpos son mutantes.",
-    "Erik no quiere destruir Cerebro: quiere usarlo. Planea encontrar primero a todos los mutantes de la lista y llevárselos a Genosha. «Protegidos», dice. «A mi manera.» Hank entiende lo que eso significa: cientos de familias sacadas de sus casas sin preguntarles.",
-    "Hank se sienta frente a Cerebro con Jean. Gwen Stacy vigila la puerta. Desde Asteroid M empieza a llover metal sobre Westchester."
+    "Erik (Magneto) no quiere destruir Cerebro: quiere usarlo. Planea encontrar primero a todos los mutantes de la lista y llevárselos a Genosha. «Protegidos», dice. «A mi manera.» Hank (Beast) entiende lo que eso significa: cientos de familias sacadas de sus casas sin preguntarles.",
+    "Hank (Beast) se sienta frente a Cerebro con Jean. Gwen Stacy (Ghost-Spider) vigila la puerta. Desde Asteroid M empieza a llover metal sobre Westchester."
   ],
-  evento: { titulo: "Conectados a Cerebro", texto: "Jean entra a Cerebro con Hank para borrar la lista antes que Erik.", efectos: ["Jean Grey empieza con 1 ficha Heroica."] },
-  pistas: {"titulo": "Borrar la lista", "tipo": "iconos", "texto": "Hank y Jean tienen que entrar a Cerebro una y otra vez para borrar cada nombre antes de que Erik los vea.", "prep": "Al terminar, cuenten los iconos de Heroica (la estrella amarilla) en la parte de abajo de las cartas de héroe que quedaron boca arriba en la Trama (la fila de cartas jugadas). Una carta con dos iconos cuenta dos; los Comodines no cuentan.", "cond": "Que en la Trama haya {n} o más iconos de Heroica.", "n": [8, 11], "premio": "Sin la lista, Magneto no puede seguir a nadie: en el próximo capítulo, cada héroe empieza con 1 ficha de Movimiento."},
+  evento: { titulo: "Conectados a Cerebro", texto: "Jean entra a Cerebro con Hank (Beast) para borrar la lista antes que Erik (Magneto).", efectos: ["Jean Grey empieza con 1 ficha Heroica."] },
+  pistas: {"titulo": "Borrar la lista", "tipo": "iconos", "texto": "Hank (Beast) y Jean tienen que entrar a Cerebro una y otra vez para borrar cada nombre antes de que Erik (Magneto) los vea.", "prep": "Al terminar, cuenten los iconos de Heroica (la estrella amarilla) en la parte de abajo de las cartas de héroe que quedaron boca arriba en la Trama (la fila de cartas jugadas). Una carta con dos iconos cuenta dos; los Comodines no cuentan.", "cond": "Que en la Trama haya {n} o más iconos de Heroica.", "n": [8, 11], "premio": "Sin la lista, Magneto no puede seguir a nadie: en el próximo capítulo, cada héroe empieza con 1 ficha de Movimiento."},
   victoria: {
     titulo: "La lista a salvo",
     texto: [
-      "Hank borra la lista de Cerebro un segundo antes de que Erik la vea. Magneto cae de rodillas sobre el pasto, sin casco. No pelea más. «Osborn no va a parar», dice. «Y ustedes no van a poder solos.»",
-      "Erik se queda mirando a Charles en la pantalla de Muir Island. Por primera vez en años, le pide permiso para quedarse."
+      "Hank (Beast) borra la lista de Cerebro un segundo antes de que Erik la vea. Magneto cae de rodillas sobre el pasto, sin casco. No pelea más. «Osborn no va a parar», dice. «Y ustedes no van a poder solos.»",
+      "Erik (Magneto) se queda mirando a Charles (Profesor X) en la pantalla de Muir Island. Por primera vez en años, le pide permiso para quedarse."
     ],
     resumen: "Protegieron Cerebro de Magneto, y Magneto pidió quedarse a ayudar.",
     efectos: [{ flag: "cerebro", valor: "a_salvo" }],
     siguiente: "D3"
   },
   derrota: {
-    titulo: "Erik ve la lista",
+    titulo: "Erik (Magneto) ve la lista",
     texto: [
-      "Magneto alcanza a ver la lista antes de que Hank la borre. Pero lo que lee lo detiene: entre los nombres compatibles hay uno que no es mutante. Cletus Kasady, preso en Ravencroft.",
-      "«Osborn no busca mutantes», dice Erik. «Busca un cuerpo para algo que ya creó.» Y por primera vez, ofrece su ayuda."
+      "Magneto alcanza a ver la lista antes de que Hank (Beast) la borre. Pero lo que lee lo detiene: entre los nombres compatibles hay uno que no es mutante. Cletus Kasady, preso en Ravencroft.",
+      "«Osborn no busca mutantes», dice Erik (Magneto). «Busca un cuerpo para algo que ya creó.» Y por primera vez, ofrece su ayuda."
     ],
     resumen: "Magneto vio la lista de Cerebro, descubrió el nombre de Kasady y ofreció su ayuda.",
     efectos: [{ panico: 1 }],
@@ -648,30 +648,30 @@ const CAPITULOS = {
 
 "II3AB": {
   acto: 2, paso: 3, titulo: "El sótano", villano: "juggernaut",
-  inspiracion: "X-Men #12-13 (1965): la primera vez que Cain Marko entra a la escuela de su hermanastro.",
+  inspiracion: "X-Men #12-13 (1965): la primera vez que Cain Marko (Juggernaut) entra a la escuela de su hermanastro.",
   anillo: ["xavier-institute", "midtown-high", "queens", "x-jet", "hangar-bay", "muir-island"],
   notas: {
     "xavier-institute": "Juggernaut ya está adentro, rumbo al sótano de Cerebro.",
-    "x-jet": "Scott, Logan y Miguel llegan volando desde Nueva York.",
+    "x-jet": "Scott (Cyclops), Logan (Wolverine) y Miguel (Spider-Man 2099) llegan volando desde Nueva York.",
     "hangar-bay": "Las compuertas blindadas del sótano.",
-    "muir-island": "Charles necesita tiempo para entrar a la mente de Cain.",
-    "midtown-high": "Algunos alumnos de la escuela de Xavier estudian en la ciudad.",
+    "muir-island": "Charles (Profesor X) necesita tiempo para entrar a la mente de Cain (Juggernaut).",
+    "midtown-high": "Algunos alumnos de la escuela de Xavier (Profesor X) estudian en la ciudad.",
     "queens": "Ruta de los autobuses que evacúan a los alumnos."
   },
   heroes: ["cyclops", "wolverine", "spider-man-2099"],
   prologo: [
-    "Con la mitad de los archivos de Arma X, Osborn sabe qué le falta: Cerebro, la máquina de Charles Xavier que encuentra a cualquier persona del planeta. Con ella puede buscar quién más es compatible con el simbionte.",
-    "Y para entrar a la escuela de Xavier tiene a alguien que odia a Charles más que nadie: su hermanastro, Cain Marko, el Juggernaut.",
-    "Scott y Logan vuelan desde Nueva York en el X-Jet con Miguel O'Hara, que en su futuro estudió a Juggernaut en los libros de historia. «En 2099 todavía no encontraron nada que lo frene», dice. «Así que mejor no lo dejen arrancar.»",
-    { vio: "juggernaut", t: "Cain recuerda muy bien la última vez que se cruzaron." }
+    "Con la mitad de los archivos de Arma X, Osborn sabe qué le falta: Cerebro, la máquina de Charles Xavier (Profesor X) que encuentra a cualquier persona del planeta. Con ella puede buscar quién más es compatible con el simbionte.",
+    "Y para entrar a la escuela de Xavier (Profesor X) tiene a alguien que odia a Charles más que nadie: su hermanastro, Cain Marko, el Juggernaut.",
+    "Scott (Cyclops) y Logan (Wolverine) vuelan desde Nueva York en el X-Jet con Miguel O'Hara (Spider-Man 2099), que en su futuro estudió a Juggernaut en los libros de historia. «En 2099 todavía no encontraron nada que lo frene», dice. «Así que mejor no lo dejen arrancar.»",
+    { vio: "juggernaut", t: "Cain (Juggernaut) recuerda muy bien la última vez que se cruzaron." }
   ],
   evento: { titulo: "Ya entró", texto: "Juggernaut rompió el muro norte antes de que el X-Jet aterrizara.", efectos: ["Juggernaut empieza Acelerado (ficha naranja al final de la Trama)."] },
-  pistas: {"titulo": "Garras hasta el final", "tipo": "mano", "texto": "Logan es el último muro entre Cain y Cerebro. Si sigue en pie y con fuerzas cuando todo termine, nadie más volverá a intentar entrar.", "cond": "Que Wolverine termine la partida con 3 o más cartas en la mano.", "premio": "Cerebro sigue a salvo y vigila a todos: el villano del próximo capítulo empieza Frenado (ficha verde sobre su mazo)."},
+  pistas: {"titulo": "Garras hasta el final", "tipo": "mano", "texto": "Logan (Wolverine) es el último muro entre Cain (Juggernaut) y Cerebro. Si sigue en pie y con fuerzas cuando todo termine, nadie más volverá a intentar entrar.", "cond": "Que Wolverine termine la partida con 3 o más cartas en la mano.", "premio": "Cerebro sigue a salvo y vigila a todos: el villano del próximo capítulo empieza Frenado (ficha verde sobre su mazo)."},
   victoria: {
     titulo: "Un casco menos",
     texto: [
-      "Scott le arranca el casco a Cain con una ráfaga óptica a quemarropa y Charles, desde Muir Island, lo duerme en el acto. Cerebro está a salvo.",
-      "Al revisar los registros, Hank descubre que alguien más espiaba la lista desde el espacio: Magneto. En la pantalla queda resaltado un nombre que no es mutante: Cletus Kasady, Ravencroft."
+      "Scott (Cyclops) le arranca el casco a Cain (Juggernaut) con una ráfaga óptica a quemarropa y Charles (Profesor X), desde Muir Island, lo duerme en el acto. Cerebro está a salvo.",
+      "Al revisar los registros, Hank (Beast) descubre que alguien más espiaba la lista desde el espacio: Magneto. En la pantalla queda resaltado un nombre que no es mutante: Cletus Kasady, Ravencroft."
     ],
     resumen: "Detuvieron a Juggernaut y Cerebro quedó a salvo; Magneto también espiaba la lista.",
     efectos: [{ flag: "cerebro", valor: "a_salvo" }],
@@ -695,10 +695,10 @@ const CAPITULOS = {
   anillo: ["sentinel-station", "asteroid-m", "genosha", "hangar-bay", "xavier-institute", "x-jet"],
   notas: {
     "sentinel-station": "La estación de los Centinelas. Magneto la tomó.",
-    "hangar-bay": "Hank prepara el X-Jet para subir a la órbita. Los héroes salen desde aquí.",
-    "asteroid-m": "La fortaleza de Erik, al lado de la estación.",
-    "genosha": "Los refugiados que Erik quiere proteger.",
-    "xavier-institute": "Jean usa Cerebro a distancia para llegar a la mente de Erik.",
+    "hangar-bay": "Hank (Beast) prepara el X-Jet para subir a la órbita. Los héroes salen desde aquí.",
+    "asteroid-m": "La fortaleza de Erik (Magneto), al lado de la estación.",
+    "genosha": "Los refugiados que Erik (Magneto) quiere proteger.",
+    "xavier-institute": "Jean usa Cerebro a distancia para llegar a la mente de Erik (Magneto).",
     "x-jet": "El avión, cargado de combustible para el viaje."
   },
   heroes: ["jean-grey", "beast", "spider-man"],
@@ -706,15 +706,15 @@ const CAPITULOS = {
   prologo: [
     "La ley de Kelly despertó algo que debía seguir dormido: la vieja estación espacial de los Centinelas, las máquinas creadas para cazar mutantes. Oscorp la está reactivando con dinero del gobierno.",
     "Magneto no va a esperar a que las máquinas despierten. Tomó la estación desde Asteroid M y amenaza con dejarla caer sobre Washington si Kelly no deroga su ley.",
-    "Jean puede usar Cerebro a distancia para llegar a la mente de Erik, pero necesita tiempo. Hank prepara el X-Jet en Hangar Bay. Peter insiste en ir: «Si esa cosa cae sobre Washington, la próxima ley va a ser contra todos nosotros.»"
+    "Jean puede usar Cerebro a distancia para llegar a la mente de Erik (Magneto), pero necesita tiempo. Hank (Beast) prepara el X-Jet en Hangar Bay. Peter (Spider-Man) insiste en ir: «Si esa cosa cae sobre Washington, la próxima ley va a ser contra todos nosotros.»"
   ],
-  evento: { titulo: "Refugiados", texto: "Erik dice que lo hace por los mutantes que se esconden en Genosha.", efectos: ["Coloca 1 Civil extra en Genosha."] },
-  pistas: {"titulo": "Cuenta regresiva", "tipo": "plan", "texto": "La estación de los Centinelas ya cae hacia la Tierra. Hay que detener a Erik antes de que entre en la atmósfera.", "cond": "Derrotar a Magneto cuando todavía quedan {n} o más cartas en el mazo de Plan Maestro.", "n": [3, 2], "premio": "Los Centinelas duermen para siempre y la alianza respira: en el próximo capítulo, cada héroe roba 4 cartas al empezar en vez de 3.", "premioRobo": 1},
+  evento: { titulo: "Refugiados", texto: "Erik (Magneto) dice que lo hace por los mutantes que se esconden en Genosha.", efectos: ["Coloca 1 Civil extra en Genosha."] },
+  pistas: {"titulo": "Cuenta regresiva", "tipo": "plan", "texto": "La estación de los Centinelas ya cae hacia la Tierra. Hay que detener a Erik (Magneto) antes de que entre en la atmósfera.", "cond": "Derrotar a Magneto cuando todavía quedan {n} o más cartas en el mazo de Plan Maestro.", "n": [3, 2], "premio": "Los Centinelas duermen para siempre y la alianza respira: en el próximo capítulo, cada héroe roba 4 cartas al empezar en vez de 3.", "premioRobo": 1},
   victoria: {
     titulo: "La estación se apaga",
     texto: [
-      "Jean llega a la mente de Erik y le muestra lo que ella ve: a Osborn riéndose de los dos. Magneto suelta la estación, que se queda flotando en órbita, apagada.",
-      "Erik baja a la Tierra sin casco. En Cerebro brilla un nombre que no es mutante: Cletus Kasady, Ravencroft. «Osborn no busca mutantes», dice Erik. «Busca un cuerpo para algo que ya creó. Déjenme ayudar.»"
+      "Jean llega a la mente de Erik (Magneto) y le muestra lo que ella ve: a Osborn riéndose de los dos. Magneto suelta la estación, que se queda flotando en órbita, apagada.",
+      "Erik (Magneto) baja a la Tierra sin casco. En Cerebro brilla un nombre que no es mutante: Cletus Kasady, Ravencroft. «Osborn no busca mutantes», dice Erik. «Busca un cuerpo para algo que ya creó. Déjenme ayudar.»"
     ],
     resumen: "Detuvieron a Magneto en la estación de los Centinelas y él ofreció su ayuda.",
     siguiente: "D3"
@@ -723,7 +723,7 @@ const CAPITULOS = {
     titulo: "Fuego en el cielo",
     texto: [
       "Magneto deja caer la estación, pero Jean consigue desviarla al océano en el último segundo. Nadie muere. Washington tiembla igual: Kelly declara a Magneto enemigo público.",
-      "Esa noche Erik aparece en el jardín de la escuela, herido y sin casco. «Osborn me usó», dice. «Las órdenes de reactivar la estación eran suyas. Quería que yo hiciera esto.» Por primera vez, ofrece su ayuda."
+      "Esa noche Erik (Magneto) aparece en el jardín de la escuela, herido y sin casco. «Osborn me usó», dice. «Las órdenes de reactivar la estación eran suyas. Quería que yo hiciera esto.» Por primera vez, ofrece su ayuda."
     ],
     resumen: "Magneto dejó caer la estación de los Centinelas; descubrió que Osborn lo usó y ofreció su ayuda.",
     efectos: [{ panico: 1 }],
@@ -736,7 +736,7 @@ const CAPITULOS = {
   inspiracion: "Genosha, la isla donde los mutantes eran esclavos, aparece en Uncanny X-Men #235 (1988); años después se convirtió en el refugio de Magneto.",
   anillo: ["weapon-x", "asteroid-m", "sentinel-station", "genosha", "hangar-bay", "x-jet"],
   notas: {
-    "weapon-x": "Osborn usa Arma X como base para sus cazadores. Creed sale desde aquí.",
+    "weapon-x": "Osborn usa Arma X como base para sus cazadores. Creed (Sabretooth / Dientes de Sable) sale desde aquí.",
     "genosha": "Los refugiados de la lista. Los héroes los defienden desde aquí.",
     "asteroid-m": "Un grupo de refugiados se escondió en los túneles de Asteroid M.",
     "hangar-bay": "Otros esperan en el hangar a que alguien los saque.",
@@ -748,17 +748,17 @@ const CAPITULOS = {
   prologo: [
     "Con la lista de Cerebro, Osborn empezó las redadas. Muchos mutantes huyeron a Genosha, la isla que Magneto ofrece como refugio.",
     "Osborn no quiere refugios. Mandó a Sabretooth a Genosha con una lista y una orden: traer vivos a los compatibles y no dejar testigos.",
-    "Logan llega primero, con Scott. Creed lo estaba esperando: «Esta vez la presa eres tú, enano.»",
+    "Logan (Wolverine) llega primero, con Scott (Cyclops). Creed (Sabretooth / Dientes de Sable) lo estaba esperando: «Esta vez la presa eres tú, enano.»",
     { si: { eddie: "confianza" }, t: "Eddie Brock vino con ellos. El simbionte también sabe lo que es que te cacen." },
-    { si: { eddie: "ravencroft" }, t: "Felicia Hardy vino con ellos: Osborn le debe una, y ella cobra sus deudas." }
+    { si: { eddie: "ravencroft" }, t: "Felicia Hardy (Black Cat) vino con ellos: Osborn le debe una, y ella cobra sus deudas." }
   ],
-  evento: { titulo: "La cacería", texto: "Creed vino por Logan antes que por nadie.", efectos: ["Wolverine empieza la partida y recibe la ficha de Cazado.", "Hay refugiados en la isla: coloca 1 Civil extra en Genosha."] },
-  pistas: {"titulo": "Los escondidos", "tipo": "civiles", "texto": "Hay familias de refugiados escondidas en toda la isla. Creed los busca uno por uno: encuéntrenlos primero.", "prep": "Cuando completen la Misión «Rescatar Civiles», sigan rescatando: dejen esos Civiles aparte, junto al tablero del villano.", "cond": "Rescatar 2 Civiles más después de completar la Misión «Rescatar Civiles».", "premio": "Los refugiados rescatados ayudan a evacuar: en el próximo capítulo, rescaten 2 Civiles de cualquier Lugar antes de empezar (cuentan para la Misión)."},
+  evento: { titulo: "La cacería", texto: "Creed (Sabretooth / Dientes de Sable) vino por Logan (Wolverine) antes que por nadie.", efectos: ["Wolverine empieza la partida y recibe la ficha de Cazado.", "Hay refugiados en la isla: coloca 1 Civil extra en Genosha."] },
+  pistas: {"titulo": "Los escondidos", "tipo": "civiles", "texto": "Hay familias de refugiados escondidas en toda la isla. Creed (Sabretooth / Dientes de Sable) los busca uno por uno: encuéntrenlos primero.", "prep": "Cuando completen la Misión «Rescatar Civiles», sigan rescatando: dejen esos Civiles aparte, junto al tablero del villano.", "cond": "Rescatar 2 Civiles más después de completar la Misión «Rescatar Civiles».", "premio": "Los refugiados rescatados ayudan a evacuar: en el próximo capítulo, rescaten 2 Civiles de cualquier Lugar antes de empezar (cuentan para la Misión)."},
   victoria: {
     titulo: "La isla resiste",
     texto: [
-      "Logan y Creed caen juntos por un acantilado y solo Logan vuelve a subir. Los refugiados están a salvo.",
-      "Magneto llega de Asteroid M cuando ya todo terminó. Ve a Logan ensangrentado protegiendo a su gente y baja la mano. «Osborn tiene la lista de mis hermanos», dice. «Déjenme pelear a su lado.»"
+      "Logan (Wolverine) y Creed (Sabretooth / Dientes de Sable) caen juntos por un acantilado y solo Logan vuelve a subir. Los refugiados están a salvo.",
+      "Magneto llega de Asteroid M cuando ya todo terminó. Ve a Logan (Wolverine) ensangrentado protegiendo a su gente y baja la mano. «Osborn tiene la lista de mis hermanos», dice. «Déjenme pelear a su lado.»"
     ],
     resumen: "Salvaron a los refugiados de Genosha y Magneto ofreció su ayuda.",
     siguiente: "D3"
@@ -766,7 +766,7 @@ const CAPITULOS = {
   derrota: {
     titulo: "Jaulas",
     texto: [
-      "Sabretooth se lleva a seis mutantes en jaulas hacia los laboratorios de Osborn. Logan tarda un día entero en levantarse.",
+      "Sabretooth se lleva a seis mutantes en jaulas hacia los laboratorios de Osborn. Logan (Wolverine) tarda un día entero en levantarse.",
       "Magneto llega tarde y encuentra la isla vacía. No grita: se queda mirando el mar. «Osborn tiene a mis hermanos», dice. «Y ustedes son los únicos que intentaron detenerlo. Déjenme ayudar.»"
     ],
     resumen: "Sabretooth se llevó a seis mutantes de Genosha y Magneto ofreció su ayuda.",
@@ -792,9 +792,9 @@ const CAPITULOS = {
   llegan: ["mystique-hero"],
   prologo: [
     "Magneto los lleva a Asteroid M, su fortaleza en órbita, para planear juntos. No alcanzan a sentarse: las alarmas de Genosha suenan al mismo tiempo.",
-    "Sobre la isla vuela un planeador. El hombre que va encima tira bombas de calabaza sobre los refugiados y se ríe con una voz que Peter conoce demasiado bien. Norman Osborn ya no se esconde: es el Duende Verde, y viene a llevarse a los mutantes de la lista.",
+    "Sobre la isla vuela un planeador. El hombre que va encima tira bombas de calabaza sobre los refugiados y se ríe con una voz que Peter (Spider-Man) conoce demasiado bien. Norman Osborn ya no se esconde: es el Duende Verde, y viene a llevarse a los mutantes de la lista.",
     { si: { evidencia: "publica" }, t: "Desde que el Bugle publicó la prueba, Osborn lo perdió todo. Ya no tiene nada que cuidar." },
-    { si: { evidencia: "secreta" }, t: "Gracias a la prueba que guardaron, Jessica sabía que Osborn atacaría hoy: llegan antes que él." },
+    { si: { evidencia: "secreta" }, t: "Gracias a la prueba que guardaron, Jessica (Spider-Woman) sabía que Osborn atacaría hoy: llegan antes que él." },
     "En la playa los espera alguien que no esperaban: Mystique. Osborn la culpó de todo frente a la prensa y ella quiere verlo caer. «No vengo a ayudarlos», dice. «Vengo a verlo perder.»"
   ],
   evento: { titulo: "Bombas sobre la isla", texto: "El Duende ataca sin esconderse.", efectos: [
@@ -806,7 +806,7 @@ const CAPITULOS = {
   victoria: {
     titulo: "El planeador cae",
     texto: [
-      "Magneto le arranca el planeador al Duende como quien le quita un juguete a un niño, y Norman Osborn cae sobre la arena de Genosha. S.H.I.E.L.D. se lo lleva esposado.",
+      "Magneto le arranca el planeador al Duende como quien le quita un juguete a un niño, y Norman Osborn (Duende Verde) cae sobre la arena de Genosha. S.H.I.E.L.D. se lo lleva esposado.",
       "Pero en su laboratorio de Nueva York, una cámara frigorífica se abre sola a medianoche. Osborn había dejado un plan de respaldo: una gota de la Muestra 7 viaja ya por las cañerías hacia Ravencroft, hacia la celda de Cletus Kasady."
     ],
     resumen: "Capturaron al Duende Verde en Genosha, pero una gota de la Muestra 7 viaja hacia Kasady.",
@@ -831,7 +831,7 @@ const CAPITULOS = {
   anillo: ["daily-bugle", "brooklyn-bridge", "queens", "oscorp-tower", "osborn-labs", "midtown-high"],
   notas: {
     "daily-bugle": "El Duende bombardea la redacción del Bugle.",
-    "oscorp-tower": "Peter y Felicia registraban la oficina de Osborn. Salen desde aquí.",
+    "oscorp-tower": "Peter (Spider-Man) y Felicia (Black Cat) registraban la oficina de Osborn. Salen desde aquí.",
     "brooklyn-bridge": "Un reportero huyó con una copia de los archivos del Bugle.",
     "midtown-high": "Otra copia está en el aula de periodismo de la escuela.",
     "osborn-labs": "El laboratorio del Duende, vacío: ya salió a pelear.",
@@ -840,10 +840,10 @@ const CAPITULOS = {
   heroes: ["spider-man", "black-cat", "mystique-hero"],
   llegan: ["mystique-hero"],
   prologo: [
-    "Sin Magneto, la alianza vuelve a Nueva York a buscar a Osborn por su cuenta. Peter y Felicia registran su oficina en lo alto de Oscorp Tower cuando la radio de la policía enloquece.",
-    "Un planeador da vueltas alrededor del Daily Bugle tirando bombas de calabaza contra la redacción. El hombre que va encima se ríe con una voz que Peter conoce demasiado bien. Norman Osborn dejó de fingir que es un empresario: ahora es el Duende Verde.",
+    "Sin Magneto, la alianza vuelve a Nueva York a buscar a Osborn por su cuenta. Peter (Spider-Man) y Felicia (Black Cat) registran su oficina en lo alto de Oscorp Tower cuando la radio de la policía enloquece.",
+    "Un planeador da vueltas alrededor del Daily Bugle tirando bombas de calabaza contra la redacción. El hombre que va encima se ríe con una voz que Peter (Spider-Man) conoce demasiado bien. Norman Osborn (Duende Verde) dejó de fingir que es un empresario: ahora es el Duende Verde.",
     { si: { evidencia: "publica" }, t: "Va por Jameson: el Bugle publicó la prueba y Osborn lo perdió todo." },
-    { si: { evidencia: "secreta" }, t: "Va por los archivos del Bugle: sospecha que alguien guarda pruebas en su contra. Gracias a Jessica, ustedes ya lo esperaban." },
+    { si: { evidencia: "secreta" }, t: "Va por los archivos del Bugle: sospecha que alguien guarda pruebas en su contra. Gracias a Jessica (Spider-Woman), ustedes ya lo esperaban." },
     "En la azotea de Oscorp los espera alguien que no esperaban: Mystique. Osborn la culpó de todo frente a la prensa y ella quiere verlo caer. «No vengo a ayudarlos», dice. «Vengo a verlo perder.»"
   ],
   evento: { titulo: "Fuego en la redacción", texto: "Toda la prensa de la ciudad está mirando.", efectos: [
@@ -855,7 +855,7 @@ const CAPITULOS = {
   victoria: {
     titulo: "Desenmascarado",
     texto: [
-      "Peter le arranca la máscara al Duende frente a todas las cámaras del Bugle y Norman Osborn cae sobre la azotea, temblando. S.H.I.E.L.D. se lo lleva esposado.",
+      "Peter (Spider-Man) le arranca la máscara al Duende frente a todas las cámaras del Bugle y Norman Osborn (Duende Verde) cae sobre la azotea, temblando. S.H.I.E.L.D. se lo lleva esposado.",
       "Pero en su laboratorio, una cámara frigorífica se abre sola a medianoche. Osborn había dejado un plan de respaldo: una gota de la Muestra 7 viaja ya por las cañerías hacia Ravencroft, hacia la celda de Cletus Kasady."
     ],
     resumen: "Atraparon al Duende Verde en el Bugle, pero una gota de la Muestra 7 viaja hacia Kasady.",
@@ -876,7 +876,7 @@ const CAPITULOS = {
 
 "III2A": {
   acto: 3, paso: 2, titulo: "Ariete carmesí", villano: "rhino",
-  inspiracion: "Carnage debutó en The Amazing Spider-Man #361 (1992): Cletus Kasady era el compañero de celda de Eddie Brock.",
+  inspiracion: "Carnage debutó en The Amazing Spider-Man #361 (1992): Cletus Kasady (Carnage) era el compañero de celda de Eddie Brock.",
   anillo: ["brooklyn-bridge", "oscorp-tower", "osborn-labs", "daily-bugle", "queens", "midtown-high"],
   notas: {
     "brooklyn-bridge": "Rhino, cubierto de rojo, carga contra el puente para partir la ciudad.",
@@ -888,14 +888,14 @@ const CAPITULOS = {
   },
   heroes: ["wolverine", "spider-woman", { si: { eddie: "confianza" }, h: "venom-hero", no: "miles-morales" }],
   prologo: [
-    "Ravencroft ya no existe. Esta madrugada, Cletus Kasady salió caminando por la puerta principal, cubierto de rojo, riéndose. La gota de simbionte que Osborn le mandó encontró a la persona más cruel de la prisión. Ahora se llama Carnage.",
+    "Ravencroft ya no existe. Esta madrugada, Cletus Kasady (Carnage) salió caminando por la puerta principal, cubierto de rojo, riéndose. La gota de simbionte que Osborn le mandó encontró a la persona más cruel de la prisión. Ahora se llama Carnage.",
     "Lo primero que hizo fue buscar a alguien grande. Aleksei Sytsevich, Rhino, cumplía condena en la celda de al lado. Ahora tiene zarcillos rojos en la armadura y carga contra el Puente de Brooklyn para partir la ciudad en dos.",
-    { si: { eddie: "confianza" }, t: "Logan y Jessica llegan primero, con Eddie Brock. El simbionte de Eddie siente a su hijo y tiembla de rabia." },
-    { si: { eddie: "ravencroft" }, t: "Logan y Jessica llegan primero, con Miles. Eddie Brock sigue encerrado entre los escombros de Ravencroft, y nadie sabe si está vivo." },
+    { si: { eddie: "confianza" }, t: "Logan (Wolverine) y Jessica (Spider-Woman) llegan primero, con Eddie Brock. El simbionte de Eddie siente a su hijo y tiembla de rabia." },
+    { si: { eddie: "ravencroft" }, t: "Logan (Wolverine) y Jessica (Spider-Woman) llegan primero, con Miles. Eddie Brock sigue encerrado entre los escombros de Ravencroft, y nadie sabe si está vivo." },
     { si: { magneto: "aliado" }, t: "Magneto vigila el cielo desde Asteroid M: si algo rojo intenta salir de la ciudad, lo verá." }
   ],
   evento: { titulo: "Zarcillos en el acero", texto: "Rhino arrastra con él a media prisión.", efectos: ["Coloca 1 Matón extra en Brooklyn Bridge."] },
-  pistas: {"titulo": "Los engendros", "tipo": "matones", "texto": "Rhino arrastra a los engendros de Carnage por el puente. Cada uno que derroten es uno menos que llega a la familia de Kasady.", "prep": "Cuando completen la Misión «Derrotar Matones», sigan derrotando: dejen esos Matones aparte, junto al tablero del villano.", "cond": "Derrotar 2 Matones más después de completar la Misión «Derrotar Matones».", "premio": "La familia de Carnage crece más despacio: el villano del próximo capítulo empieza Frenado (ficha verde sobre su mazo)."},
+  pistas: {"titulo": "Los engendros", "tipo": "matones", "texto": "Rhino arrastra a los engendros de Carnage por el puente. Cada uno que derroten es uno menos que llega a la familia de Kasady (Carnage).", "prep": "Cuando completen la Misión «Derrotar Matones», sigan derrotando: dejen esos Matones aparte, junto al tablero del villano.", "cond": "Derrotar 2 Matones más después de completar la Misión «Derrotar Matones».", "premio": "La familia de Carnage crece más despacio: el villano del próximo capítulo empieza Frenado (ficha verde sobre su mazo)."},
   victoria: {
     titulo: "El puente resiste",
     texto: [
@@ -919,7 +919,7 @@ const CAPITULOS = {
 
 "III2B": {
   acto: 3, paso: 2, titulo: "El simbionte robado", villano: "venom",
-  inspiracion: "Venom: Lethal Protector (1993) convirtió a Eddie Brock en antihéroe. La debilidad del simbionte al sonido viene de sus primeras historias.",
+  inspiracion: "Venom: Lethal Protector (1993) convirtió a Eddie Brock (Venom) en antihéroe. La debilidad del simbionte al sonido viene de sus primeras historias.",
   anillo: ["oscorp-tower", "daily-bugle", "midtown-high", "queens", "brooklyn-bridge", "osborn-labs"],
   notas: {
     "oscorp-tower": "Venom, con un collar sónico, cuida la torre de Osborn.",
@@ -933,15 +933,15 @@ const CAPITULOS = {
   prologo: [
     { si: { eddie: "confianza" }, t: "Osborn le tendió una trampa a Eddie Brock: lo citó en Oscorp Tower haciéndose pasar por Jameson, con una oferta de trabajo. Eddie fue." },
     { si: { eddie: "ravencroft" }, t: "Osborn entró a Ravencroft con un uniforme de guardia y salió con Eddie Brock en una camilla." },
-    "Ahora Eddie lleva un collar sónico en el cuello. Cada vez que el simbionte duda, el collar chilla, y el simbionte obedece. Venom se pasea por Oscorp Tower como un perro de guardia, y Osborn tiene al fin lo que buscaba: un simbionte adulto que sabe obedecer.",
-    "Miles, Gwen y Miguel no vienen a pelear contra Eddie: vienen a quitarle el collar."
+    "Ahora Eddie (Venom) lleva un collar sónico en el cuello. Cada vez que el simbionte duda, el collar chilla, y el simbionte obedece. Venom se pasea por Oscorp Tower como un perro de guardia, y Osborn tiene al fin lo que buscaba: un simbionte adulto que sabe obedecer.",
+    "Miles, Gwen (Ghost-Spider) y Miguel (Spider-Man 2099) no vienen a pelear contra Eddie: vienen a quitarle el collar."
   ],
   evento: { titulo: "Perro de guardia", texto: "Osborn reforzó la torre con su propia seguridad.", efectos: ["Coloca 1 Matón extra en Oscorp Tower."] },
   pistas: {"titulo": "Sin marcas", "tipo": "crisis", "texto": "El collar hace que el simbionte marque a todo el que toca. Si nadie termina demasiado marcado, Eddie podrá volver en sí sin hacerle daño a nadie.", "cond": "Que ningún héroe termine con 3 o más fichas de Crisis.", "premio": "El simbionte de Eddie queda furioso con Osborn: en el próximo capítulo, cada héroe empieza con 1 ficha de Ataque."},
   victoria: {
     titulo: "Eddie vuelve",
     texto: [
-      "Miguel corta el collar con las garras y el simbionte suelta un grito que rompe todas las ventanas del piso. Eddie cae de rodillas, libre.",
+      "Miguel (Spider-Man 2099) corta el collar con las garras y el simbionte suelta un grito que rompe todas las ventanas del piso. Eddie cae de rodillas, libre.",
       "En la oficina de Osborn encuentran una jaula vacía y una nota: «Ya no necesito el tuyo. Encontré uno mejor.» En las noticias, Ravencroft está en llamas: Cletus Kasady escapó, cubierto de rojo."
     ],
     resumen: "Liberaron a Eddie del collar de Osborn, pero Carnage escapó de Ravencroft.",
@@ -961,12 +961,12 @@ const CAPITULOS = {
 
 "III3AA": {
   acto: 3, paso: 3, titulo: "Duende Rojo", villano: "green-goblin", nivel: 1,
-  inspiracion: "The Amazing Spider-Man #798-800 (2018): Norman Osborn se une al simbionte de Carnage y nace el Duende Rojo.",
+  inspiracion: "The Amazing Spider-Man #798-800 (2018): Norman Osborn (Duende Verde) se une al simbionte de Carnage y nace el Duende Rojo.",
   anillo: ["oscorp-tower", "osborn-labs", "brooklyn-bridge", "midtown-high", "queens", "daily-bugle"],
   notas: {
     "oscorp-tower": "El Duende Rojo vuelve a su torre y anuncia que la ciudad es suya.",
     "midtown-high": "Los héroes se reúnen en la azotea de la escuela.",
-    "daily-bugle": "Hank instaló un amplificador sónico en la antena del Bugle.",
+    "daily-bugle": "Hank (Beast) instaló un amplificador sónico en la antena del Bugle.",
     "brooklyn-bridge": "Otro amplificador, en los cables del puente.",
     "osborn-labs": "Los tanques donde Osborn guardaba la fórmula.",
     "queens": "La tía May no quiere irse de su casa."
@@ -978,7 +978,7 @@ const CAPITULOS = {
     "Mystique llega a la azotea de Midtown donde se reúnen los héroes. «Este es mío», dice. Jean le pone una mano en el hombro: «Es de todos.»"
   ],
   evento: { titulo: "Fórmula roja", texto: "Osborn tiene la fuerza del Duende y la del simbionte de Carnage.", efectos: ["Coloca 1 Matón extra en Oscorp Tower."] },
-  pistas: {"titulo": "El golpe que lo separa", "tipo": "iconos", "texto": "Los amplificadores de Hank aflojan al simbionte, pero hace falta golpear fuerte y muchas veces para separarlo de Osborn.", "prep": "Al terminar, cuenten los iconos de Ataque (el puño rojo) en la parte de abajo de las cartas de héroe que quedaron boca arriba en la Trama (la fila de cartas jugadas). Una carta con dos iconos cuenta dos; los Comodines no cuentan.", "cond": "Que en la Trama haya {n} o más iconos de Ataque.", "n": [5, 7], "premio": "Los amplificadores de Hank siguen encendidos: en el final, el medidor de engendros de Carnage empieza 1 casilla más abajo.", "premioEfectos": [{"carnage": -1}]},
+  pistas: {"titulo": "El golpe que lo separa", "tipo": "iconos", "texto": "Los amplificadores de Hank (Beast) aflojan al simbionte, pero hace falta golpear fuerte y muchas veces para separarlo de Osborn.", "prep": "Al terminar, cuenten los iconos de Ataque (el puño rojo) en la parte de abajo de las cartas de héroe que quedaron boca arriba en la Trama (la fila de cartas jugadas). Una carta con dos iconos cuenta dos; los Comodines no cuentan.", "cond": "Que en la Trama haya {n} o más iconos de Ataque.", "n": [5, 7], "premio": "Los amplificadores de Hank (Beast) siguen encendidos: en el final, el medidor de engendros de Carnage empieza 1 casilla más abajo.", "premioEfectos": [{"carnage": -1}]},
   victoria: {
     titulo: "El Duende cae",
     texto: [
@@ -992,7 +992,7 @@ const CAPITULOS = {
   derrota: {
     titulo: "El simbionte lo suelta",
     texto: [
-      "El Duende Rojo escapa por los techos, pero no llega lejos: el simbionte lo abandona en pleno vuelo y Osborn cae sobre un toldo de Queens, sin fuerzas. Huye cojeando.",
+      "El Duende Rojo escapa por los techos, pero no llega lejos: el simbionte lo abandona en pleno vuelo y Osborn (Duende Verde) cae sobre un toldo de Queens, sin fuerzas. Huye cojeando.",
       "La masa roja vuelve con Carnage, más fuerte de lo que se fue."
     ],
     resumen: "El Duende Rojo escapó, el simbionte lo abandonó y volvió con Carnage más fuerte.",
@@ -1007,25 +1007,25 @@ const CAPITULOS = {
   anillo: ["queens", "midtown-high", "x-jet", "xavier-institute", "hangar-bay", "muir-island"],
   notas: {
     "queens": "Juggernaut sale de la ciudad hacia Westchester.",
-    "xavier-institute": "Ororo y Logan defienden Cerebro desde la escuela.",
-    "midtown-high": "Carnage sigue la marcha de Cain desde su nido en Midtown.",
+    "xavier-institute": "Ororo (Storm) y Logan (Wolverine) defienden Cerebro desde la escuela.",
+    "midtown-high": "Carnage sigue la marcha de Cain (Juggernaut) desde su nido en Midtown.",
     "x-jet": "Los alumnos más chicos esperan en el avión.",
     "hangar-bay": "Los alumnos mayores esperan en el hangar.",
-    "muir-island": "Charles trata de llegar a la mente de Cain desde Muir Island."
+    "muir-island": "Charles (Profesor X) trata de llegar a la mente de Cain (Juggernaut) desde Muir Island."
   },
   heroes: ["storm", "wolverine", { si: { magneto: "aliado" }, h: "magneto-hero", no: "cyclops" }],
   prologo: [
     "El engendro de Carnage que entró a la base de S.H.I.E.L.D. no fue por Osborn. Buscó al ser más fuerte que pudo encontrar: Cain Marko, el Juggernaut.",
-    "Ahora el casco de Cain tiene grietas rojas y su risa no es la suya. Carnage lo mandó a Westchester con una misión: traer Cerebro, la máquina que encuentra a cualquier persona del planeta. Carnage quiere saber dónde vive cada posible huésped para su familia.",
-    { si: { magneto: "aliado" }, t: "Ororo y Logan esperan en la escuela. Erik flota sobre el techo: «El metal del casco de Cain me escucha», dice. «Lo que hay debajo, no.»" },
-    { si: { magneto: "rechazado" }, t: "Ororo y Logan esperan en la escuela con Scott, que se ajusta el visor: ya detuvieron a Cain una vez." }
+    "Ahora el casco de Cain (Juggernaut) tiene grietas rojas y su risa no es la suya. Carnage lo mandó a Westchester con una misión: traer Cerebro, la máquina que encuentra a cualquier persona del planeta. Carnage quiere saber dónde vive cada posible huésped para su familia.",
+    { si: { magneto: "aliado" }, t: "Ororo (Storm) y Logan (Wolverine) esperan en la escuela. Erik (Magneto) flota sobre el techo: «El metal del casco de Cain (Juggernaut) me escucha», dice. «Lo que hay debajo, no.»" },
+    { si: { magneto: "rechazado" }, t: "Ororo (Storm) y Logan (Wolverine) esperan en la escuela con Scott (Cyclops), que se ajusta el visor: ya detuvieron a Cain (Juggernaut) una vez." }
   ],
   evento: { titulo: "Imparable", texto: "Juggernaut no se desvía y arrastra todo lo que encuentra.", efectos: ["Coloca 1 Matón extra en Queens."] },
   pistas: {"titulo": "Calles despejadas", "tipo": "lugares", "texto": "Los alumnos tienen que salir de la escuela por las calles de alrededor. Si quedan despejadas, nadie se queda atrás.", "cond": "Que al terminar ningún Lugar tenga 3 o más Matones.", "premio": "Los alumnos están a salvo y Carnage tiene menos a quién buscar: en el final, el medidor de engendros empieza 1 casilla más abajo.", "premioEfectos": [{"carnage": -1}]},
   victoria: {
     titulo: "El gigante se libera",
     texto: [
-      "Ororo le parte el casco con un rayo y el engendro rojo sale de Cain chillando. Cain cae de rodillas, libre, y por primera vez en años no dice nada contra su hermano.",
+      "Ororo (Storm) le parte el casco con un rayo y el engendro rojo sale de Cain (Juggernaut) chillando. Cain cae de rodillas, libre, y por primera vez en años no dice nada contra su hermano.",
       "Cerebro está a salvo y ya marca dónde está Carnage: en Midtown High, con todos los alumnos adentro."
     ],
     resumen: "Liberaron a Juggernaut del simbionte y Cerebro encontró el nido de Carnage.",
@@ -1045,7 +1045,7 @@ const CAPITULOS = {
 
 "III3BA": {
   acto: 3, paso: 3, titulo: "El dueño de las copias", villano: "green-goblin", nivel: 1,
-  inspiracion: "The Amazing Spider-Man #798-800 (2018): Norman Osborn se une al simbionte de Carnage y nace el Duende Rojo.",
+  inspiracion: "The Amazing Spider-Man #798-800 (2018): Norman Osborn (Duende Verde) se une al simbionte de Carnage y nace el Duende Rojo.",
   anillo: ["osborn-labs", "oscorp-tower", "daily-bugle", "queens", "brooklyn-bridge", "midtown-high"],
   notas: {
     "osborn-labs": "El Duende Rojo se encerró en su laboratorio a fabricar copias.",
@@ -1057,19 +1057,19 @@ const CAPITULOS = {
   },
   heroes: ["spider-man", "black-cat", "mystique-hero"],
   prologo: [
-    "«Encontré uno mejor», decía la nota de Osborn. Se refería a Carnage. Norman fue directo a buscarlo, y Kasady, que adora el caos, le regaló un pedazo de sí mismo.",
+    "«Encontré uno mejor», decía la nota de Osborn. Se refería a Carnage. Norman fue directo a buscarlo, y Kasady (Carnage), que adora el caos, le regaló un pedazo de sí mismo.",
     "Ahora Osborn es el Duende Rojo: garras, cola, una sonrisa demasiado grande y la fuerza de dos simbiontes. Se encerró en Osborn Laboratories para terminar lo que empezó: copias del simbionte rojo para vendérselas a quien pague.",
-    "Peter, Felicia y Mystique salen desde Queens. Eddie se queda en la casa de la tía May recuperándose: el collar le dejó marcas que no se van."
+    "Peter (Spider-Man), Felicia (Black Cat) y Mystique salen desde Queens. Eddie se queda en la casa de la tía May recuperándose: el collar le dejó marcas que no se van."
   ],
   evento: { titulo: "Fórmula roja", texto: "Osborn tiene la fuerza del Duende y la del simbionte de Carnage.", efectos: ["Coloca 1 Matón extra en Osborn Laboratories."] },
   pistas: {"titulo": "Ni una copia", "tipo": "misiones", "texto": "Los tanques con copias del simbionte están repartidos por todo el laboratorio. Para que no quede ninguna, hay que limpiar todo antes de atrapar al Duende.", "cond": "Completar las 3 Misiones antes de derrotar al Duende Verde.", "premio": "Sin copias, Carnage llega más débil: en el final, el medidor de engendros empieza 1 casilla más abajo.", "premioEfectos": [{"carnage": -1}]},
   victoria: {
     titulo: "Sin copias",
     texto: [
-      "Felicia le roba al Duende Rojo el detonador de sus tanques justo antes de que lo apriete, y Peter lo arranca del aire de una sola telaraña. El simbionte se suelta de Osborn y Norman queda en el suelo del laboratorio, humano y esposado.",
+      "Felicia (Black Cat) le roba al Duende Rojo el detonador de sus tanques justo antes de que lo apriete, y Peter (Spider-Man) lo arranca del aire de una sola telaraña. El simbionte se suelta de Osborn (Duende Verde) y Norman queda en el suelo del laboratorio, humano y esposado.",
       "La masa roja huye hacia Carnage. Las copias se derriten en sus tanques."
     ],
-    resumen: "Vencieron al Duende Rojo en su laboratorio y Osborn quedó preso; el simbionte volvió con Carnage.",
+    resumen: "Vencieron al Duende Rojo en su laboratorio y Osborn (Duende Verde) quedó preso; el simbionte volvió con Carnage.",
     efectos: [{ flag: "osborn", valor: "vencido" }],
     siguiente: "D4"
   },
@@ -1079,7 +1079,7 @@ const CAPITULOS = {
       "El Duende Rojo escapa y dos tanques con copias del simbionte se rompen en la calle. Cada copia busca un dueño.",
       "Osborn cae al río desde el puente cuando el simbionte lo abandona en pleno vuelo. Nadie encuentra el cuerpo. Las copias corren a reunirse con Carnage."
     ],
-    resumen: "El Duende Rojo escapó, sus copias se unieron a Carnage y Osborn desapareció en el río.",
+    resumen: "El Duende Rojo escapó, sus copias se unieron a Carnage y Osborn (Duende Verde) desapareció en el río.",
     efectos: [{ panico: 1 }, { carnage: 1 }, { flag: "osborn", valor: "profugo" }],
     siguiente: "D4"
   }
@@ -1087,7 +1087,7 @@ const CAPITULOS = {
 
 "III3BB": {
   acto: 3, paso: 3, titulo: "Ariete negro", villano: "rhino", nivel: 1,
-  inspiracion: "Rhino debutó en The Amazing Spider-Man #41 (1966). En los cómics, el simbionte de Venom tuvo muchos huéspedes además de Eddie Brock.",
+  inspiracion: "Rhino debutó en The Amazing Spider-Man #41 (1966). En los cómics, el simbionte de Venom tuvo muchos huéspedes además de Eddie Brock (Venom).",
   anillo: ["oscorp-tower", "osborn-labs", "midtown-high", "brooklyn-bridge", "queens", "daily-bugle"],
   notas: {
     "oscorp-tower": "Rhino, cubierto de negro, sale de la torre de Osborn.",
@@ -1101,14 +1101,14 @@ const CAPITULOS = {
   prologo: [
     "Osborn descubrió que el simbionte de Eddie obedece mejor cuando el cuerpo que lo lleva no piensa mucho. Así que lo pasó a otro huésped: Aleksei Sytsevich, Rhino.",
     "Rhino cubierto de negro, con dientes y un collar sónico en el cuello. Osborn lo usa como ariete para abrirse paso hasta Carnage: quiere ofrecerle una alianza.",
-    "Eddie, sin su simbionte, le ruega a Jessica que lo recuperen. Hank preparó un sonido que puede soltar al simbionte sin matarlo. Spider-Ham ya eligió su martillo más grande."
+    "Eddie, sin su simbionte, le ruega a Jessica (Spider-Woman) que lo recuperen. Hank (Beast) preparó un sonido que puede soltar al simbionte sin matarlo. Spider-Ham ya eligió su martillo más grande."
   ],
   evento: { titulo: "Ariete negro", texto: "Rhino lleva la fuerza de dos.", efectos: ["Coloca 1 Matón extra en Oscorp Tower."] },
-  pistas: {"titulo": "El pulso sónico", "tipo": "fichas", "texto": "Hank necesita energía de sobra para disparar el pulso que suelta al simbionte sin lastimar a nadie. No la gasten toda en la pelea.", "cond": "Terminar la partida con {n} o más fichas de acción sin usar entre todos los héroes.", "n": [2, 3], "premio": "El simbionte de Eddie vuelve a casa con ganas de pelear: en el final, cada héroe empieza con 1 ficha Comodín."},
+  pistas: {"titulo": "El pulso sónico", "tipo": "fichas", "texto": "Hank (Beast) necesita energía de sobra para disparar el pulso que suelta al simbionte sin lastimar a nadie. No la gasten toda en la pelea.", "cond": "Terminar la partida con {n} o más fichas de acción sin usar entre todos los héroes.", "n": [2, 3], "premio": "El simbionte de Eddie vuelve a casa con ganas de pelear: en el final, cada héroe empieza con 1 ficha Comodín."},
   victoria: {
     titulo: "El simbionte vuelve a casa",
     texto: [
-      "El sonido de Hank suelta al simbionte de Rhino, que cruza la calle volando y se enrosca en Eddie como un perro que vuelve a casa. Venom ruge: está libre, y está furioso.",
+      "El sonido de Hank (Beast) suelta al simbionte de Rhino, que cruza la calle volando y se enrosca en Eddie como un perro que vuelve a casa. Venom ruge: está libre, y está furioso.",
       "Osborn huye solo, sin ariete y sin aliados. Nadie lo vuelve a ver antes del final."
     ],
     resumen: "Devolvieron el simbionte a Eddie y Osborn huyó solo.",
@@ -1142,11 +1142,11 @@ const CAPITULOS = {
   },
   heroes: ["spider-man", { si: { sonico: "no" }, h: "venom-hero", no: "miles-morales" }, "storm"],
   prologo: [
-    "Todo empezó con una muestra en una bóveda de Oscorp. Termina en la escuela de Peter Parker.",
+    "Todo empezó con una muestra en una bóveda de Oscorp. Termina en la escuela de Peter Parker (Spider-Man).",
     "Carnage tomó Midtown High con los alumnos adentro. Cada persona que toca se convierte en un engendro, y cada engendro busca a otra persona. Si la marea roja sale de la escuela, no habrá forma de pararla.",
     { si: { sonico: "usar" }, t: "Los emisores sónicos de S.H.I.E.L.D. rodean la escuela. Eddie Brock se despidió de su simbionte en la azotea de la casa de la tía May. Nadie dijo nada. Miles se puso a su lado." },
-    { si: { sonico: "no" }, t: "Eddie Brock se sube la capucha negra. «Es mi hijo», dice Venom. «Me toca a mí.»" },
-    "Ororo vuela sobre la escuela llamando a la tormenta: el fuego y el ruido son lo único que asusta a un simbionte. Peter mira hacia Queens una última vez. Después salta."
+    { si: { sonico: "no" }, t: "Eddie Brock (Venom) se sube la capucha negra. «Es mi hijo», dice Venom. «Me toca a mí.»" },
+    "Ororo (Storm) vuela sobre la escuela llamando a la tormenta: el fuego y el ruido son lo único que asusta a un simbionte. Peter (Spider-Man) mira hacia Queens una última vez. Después salta."
   ],
   evento: { titulo: "La familia de Carnage", texto: "Kasady quiere que cada alumno sea parte de su familia.", efectos: [
     { si: { sonico: "usar" }, t: "Los emisores de S.H.I.E.L.D. debilitan a los engendros: el medidor empieza en 0 y cada héroe empieza con 1 ficha de Ataque." },
@@ -1156,7 +1156,7 @@ const CAPITULOS = {
   victoria: {
     titulo: "Nueva York amanece",
     texto: [
-      "Carnage se deshace en un chillido que rompe todos los vidrios de Midtown, y Cletus Kasady queda en el piso del gimnasio, pequeño, humano y encerrado en un frasco de S.H.I.E.L.D.",
+      "Carnage se deshace en un chillido que rompe todos los vidrios de Midtown, y Cletus Kasady (Carnage) queda en el piso del gimnasio, pequeño, humano y encerrado en un frasco de S.H.I.E.L.D.",
       "Los alumnos salen de la escuela abrazados. Arriba, en el techo, los héroes miran salir el sol sobre Queens."
     ],
     resumen: "Carnage fue derrotado."
@@ -1164,7 +1164,7 @@ const CAPITULOS = {
   derrota: {
     titulo: "Todavía no",
     texto: [
-      "La marea roja llega a la puerta de la escuela, pero no la cruza. Ororo levanta un muro de viento, Peter se pone de pie con el traje hecho jirones y grita algo que nadie oye por el ruido.",
+      "La marea roja llega a la puerta de la escuela, pero no la cruza. Ororo (Storm) levanta un muro de viento, Peter (Spider-Man) se pone de pie con el traje hecho jirones y grita algo que nadie oye por el ruido.",
       "Todavía hay alumnos adentro. Todavía hay tiempo. Vuelvan a intentarlo: esta vez, la ciudad entera está mirando."
     ],
     resumen: "Carnage casi gana, pero los héroes se levantaron otra vez."
@@ -1176,15 +1176,15 @@ const CAPITULOS = {
 const DECISIONES = {
   "D1": {
     titulo: "¿Qué hacen con Eddie Brock?",
-    texto: "Eddie Brock y el simbionte son ahora un problema de todos. S.H.I.E.L.D. quiere encerrarlo en Ravencroft, la prisión para criminales con poderes. Jessica Drew cree que Eddie puede aprender a controlar al simbionte si lo dejan ayudar.",
+    texto: "Eddie Brock y el simbionte son ahora un problema de todos. S.H.I.E.L.D. quiere encerrarlo en Ravencroft, la prisión para criminales con poderes. Jessica Drew (Spider-Woman) cree que Eddie puede aprender a controlar al simbionte si lo dejan ayudar.",
     notas: {
-      "I3AB:perdio": "Osborn tiene ahora al simbionte, pero Jessica asaltó su laboratorio esa misma noche y se lo devolvió a Eddie. El simbionte volvió furioso y asustado.",
-      "I3BA:perdio": "Venom anduvo suelto toda la noche. Lo encontraron al amanecer bajo el Puente de Brooklyn, agotado, con Eddie medio despierto adentro.",
-      "I3BB:gano": "Venom huyó por la ventana, pero no llegó lejos: lo encontraron dos calles más allá, con Eddie medio despierto adentro.",
-      "I3BB:perdio": "Venom pasó la noche aterrorizando Manhattan. Al amanecer, Eddie logró que el simbionte se calmara y se entregó a Jessica."
+      "I3AB:perdio": "Osborn tiene ahora al simbionte, pero Jessica (Spider-Woman) asaltó su laboratorio esa misma noche y se lo devolvió a Eddie. El simbionte volvió furioso y asustado.",
+      "I3BA:perdio": "Venom anduvo suelto toda la noche. Lo encontraron al amanecer bajo el Puente de Brooklyn, agotado, con Eddie (Venom) medio despierto adentro.",
+      "I3BB:gano": "Venom huyó por la ventana, pero no llegó lejos: lo encontraron dos calles más allá, con Eddie (Venom) medio despierto adentro.",
+      "I3BB:perdio": "Venom pasó la noche aterrorizando Manhattan. Al amanecer, Eddie (Venom) logró que el simbionte se calmara y se entregó a Jessica (Spider-Woman)."
     },
     opciones: [
-      { id: "ravencroft", nombre: "Entregarlo a Ravencroft", texto: "Eddie va a una celda reforzada y la ciudad respira (Pánico −1). Pero en Ravencroft hay un preso llamado Cletus Kasady, y el simbionte deja huellas por donde pasa: Carnage llegará más fuerte al final.",
+      { id: "ravencroft", nombre: "Entregarlo a Ravencroft", texto: "Eddie va a una celda reforzada y la ciudad respira (Pánico −1). Pero en Ravencroft hay un preso llamado Cletus Kasady (Carnage), y el simbionte deja huellas por donde pasa: Carnage llegará más fuerte al final.",
         efectos: [{ panico: -1 }, { flag: "eddie", valor: "ravencroft" }, { carnage: 1 }] },
       { id: "confianza", nombre: "Confiar en Eddie", texto: "Eddie se queda con ustedes bajo palabra: Venom pelea a su lado cuando haga falta. Pero la ciudad vio a un monstruo caminar libre (Pánico +1).",
         efectos: [{ panico: 1 }, { flag: "eddie", valor: "confianza" }] }
@@ -1193,7 +1193,7 @@ const DECISIONES = {
   },
   "D2": {
     titulo: "El teléfono de Mystique",
-    texto: "El teléfono prueba que Norman Osborn pagó el atentado contra Kelly. J. Jonah Jameson pagaría lo que fuera por publicarlo. Jessica Drew prefiere usarlo en secreto para seguir cada paso de Osborn.",
+    texto: "El teléfono prueba que Norman Osborn pagó el atentado contra Kelly. J. Jonah Jameson pagaría lo que fuera por publicarlo. Jessica Drew (Spider-Woman) prefiere usarlo en secreto para seguir cada paso de Osborn.",
     opciones: [
       { id: "publica", nombre: "Dárselo a Jameson", texto: "Osborn queda expuesto ante todo el país y pierde contratos y amigos (Pánico −1). Pero un hombre acorralado es más peligroso: cuando vuelva, llegará desesperado.",
         efectos: [{ panico: -1 }, { flag: "evidencia", valor: "publica" }] },
@@ -1203,19 +1203,19 @@ const DECISIONES = {
   },
   "D3": {
     titulo: "¿Aceptan la ayuda de Magneto?",
-    texto: "Erik es el ser más poderoso que pueden tener de su lado. También es el hombre que, hasta hace muy poco, peleaba contra ustedes. Lo que decidan cambia dónde empieza el último acto.",
+    texto: "Erik (Magneto) es el ser más poderoso que pueden tener de su lado. También es el hombre que, hasta hace muy poco, peleaba contra ustedes. Lo que decidan cambia dónde empieza el último acto.",
     opciones: [
       { id: "aliado", nombre: "Aceptar a Magneto", texto: "Magneto se une como héroe y el Acto III empieza en Genosha. Si Kelly quedó herido, la ciudad lo verá como una alianza con el enemigo (Pánico +1).",
         efectos: [{ flag: "magneto", valor: "aliado" }, { panicoSi: { flag: "kelly", valor: "herido", n: 1 } }], siguiente: "III1M" },
-      { id: "rechazado", nombre: "Rechazarlo", texto: "Erik se va sin pelear y el Acto III empieza en Nueva York. Charles agradece que confíen en su sueño: cada héroe empieza el próximo capítulo con 1 ficha Heroica.",
-        efectos: [{ flag: "magneto", valor: "rechazado" }], pendientes: ["La confianza de Xavier: cada Héroe empieza con 1 ficha Heroica."], siguiente: "III1X" }
+      { id: "rechazado", nombre: "Rechazarlo", texto: "Erik (Magneto) se va sin pelear y el Acto III empieza en Nueva York. Charles (Profesor X) agradece que confíen en su sueño: cada héroe empieza el próximo capítulo con 1 ficha Heroica.",
+        efectos: [{ flag: "magneto", valor: "rechazado" }], pendientes: ["La confianza de Xavier (Profesor X): cada Héroe empieza con 1 ficha Heroica."], siguiente: "III1X" }
     ]
   },
   "D4": {
     titulo: "El arma sónica",
     texto: "S.H.I.E.L.D. terminó un arma sónica capaz de destruir a todos los simbiontes de Nueva York al mismo tiempo. Si la usan, Carnage llegará mucho más débil a la pelea final. Pero el simbionte de Eddie Brock también morirá.",
     opciones: [
-      { id: "usar", nombre: "Usar el arma", texto: "El final será más fácil: el medidor de Carnage empieza en 0 y cada héroe empieza con 1 ficha de Ataque. Venom no pelea en el final, y el compañero de Eddie muere.",
+      { id: "usar", nombre: "Usar el arma", texto: "El final será más fácil: el medidor de Carnage empieza en 0 y cada héroe empieza con 1 ficha de Ataque. Venom no pelea en el final, y el compañero de Eddie (Venom) muere.",
         efectos: [{ flag: "sonico", valor: "usar" }] },
       { id: "no", nombre: "No usarla", texto: "Venom pelea a su lado en el final. Carnage llega con toda la fuerza que juntó durante la campaña.",
         efectos: [{ flag: "sonico", valor: "no" }] }
@@ -1238,21 +1238,21 @@ function epilogoFinal(estado) {
   if (f.osborn === "vencido" || f.osborn === "preso") l.push("Norman Osborn mira el amanecer desde una celda de máxima seguridad. Ya no tiene fórmula, ni simbionte, ni torre. Por primera vez en años, duerme toda la noche.");
   else l.push("En algún lugar de la ciudad, un Norman Osborn sin poderes ve las noticias y aprieta los dientes. Volverá a intentarlo: siempre vuelve.");
 
-  if (f.kelly === "salvado") l.push("El Senador Kelly retira su proyecto de registro. En su discurso de despedida nombra a Scott Summers y a Jean Grey.");
+  if (f.kelly === "salvado") l.push("El Senador Kelly retira su proyecto de registro. En su discurso de despedida nombra a Scott Summers (Cyclops) y a Jean Grey.");
   else if (f.kelly === "herido") l.push("La ley de Kelly sigue en pie. La próxima pelea de los X-Men no será con los puños: será en los tribunales, y Matt Murdock ya se ofreció a llevar el caso.");
 
   if (f.sonico === "usar") l.push("Eddie Brock entierra una caja vacía en el jardín de la tía May. Ella le pone flores sin preguntar qué hay adentro.");
   else if (f.eddie === "confianza") l.push("Eddie Brock vuelve al Bugle con la historia que nadie más puede contar. Esta vez la firma con su nombre, y Jameson la publica en primera plana.");
-  else l.push("Eddie Brock salió de Ravencroft para pelear contra su hijo. S.H.I.E.L.D. todavía discute si dejarlo libre; Peter firma la carta de recomendación.");
+  else l.push("Eddie Brock salió de Ravencroft para pelear contra su hijo. S.H.I.E.L.D. todavía discute si dejarlo libre; Peter (Spider-Man) firma la carta de recomendación.");
 
-  if (f.magneto === "aliado") l.push("Magneto vuelve a Genosha sin despedirse. Antes de irse, deja la lista de Cerebro en el escritorio de Charles, intacta.");
-  else if (f.magneto === "rechazado") l.push("Charles le escribe una carta a Erik. Todavía no se anima a enviarla.");
+  if (f.magneto === "aliado") l.push("Magneto vuelve a Genosha sin despedirse. Antes de irse, deja la lista de Cerebro en el escritorio de Charles (Profesor X), intacta.");
+  else if (f.magneto === "rechazado") l.push("Charles (Profesor X) le escribe una carta a Erik (Magneto). Todavía no se anima a enviarla.");
 
   if (f.evidencia === "publica") l.push("J. Jonah Jameson gana un premio de periodismo por la historia de Osborn. En el discurso dice que Spider-Man sigue siendo una amenaza.");
-  else if (f.evidencia === "secreta") l.push("Jessica Drew archiva el teléfono de Mystique en una caja de S.H.I.E.L.D. que nadie más puede abrir.");
+  else if (f.evidencia === "secreta") l.push("Jessica Drew (Spider-Woman) archiva el teléfono de Mystique en una caja de S.H.I.E.L.D. que nadie más puede abrir.");
 
   l.push("Mystique desaparece entre la multitud con la cara de una enfermera. Nadie la ve irse, pero en la mesa de la tía May queda una paloma de papel.");
-  l.push("Esa noche, Hank abre una grieta por última vez. Gwen, Miguel y Peter Porker se despiden en el jardín de Queens. «Si alguna vez nos necesitan», dice Gwen, «ya saben dónde no buscarnos.»");
+  l.push("Esa noche, Hank (Beast) abre una grieta por última vez. Gwen (Ghost-Spider), Miguel (Spider-Man 2099) y Peter Porker (Spider-Ham) se despiden en el jardín de Queens. «Si alguna vez nos necesitan», dice Gwen, «ya saben dónde no buscarnos.»");
 
   const p = estado.panico;
   l.push(p <= 1 ? "Nueva York vuelve a la normalidad en una semana. La tía May prepara lasaña para todos, y esta vez nadie sale corriendo por la ventana."
